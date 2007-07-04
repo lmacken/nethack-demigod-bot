@@ -1,0 +1,2258 @@
+amulet of change            :  $150   20  130c :  Y
+amulet of ESP               :   150   20  175  :  Y
+amulet of life saving       :   150   20   75  :
+amulet of magical breathing :   150   20   65  :  Y
+amulet of reflection        :   150   20   75  :
+amulet of restful sleep     :   150   20  135c :  Y
+amulet of strangulation     :   150   20  135c :  Y
+amulet of unchanging        :   150   20   45  :  Y
+amulet versus poison        :   150   20  165  :  Y
+imitation AoY               :     0   20    0  :
+Amulet of Yendor            : 30000   20    0  :
+
+amulet of change {
+  When either worn (unless you have intrinsic unchanging) or eaten, it
+  toggles your character's gender between male and female.  Gender has the
+  following effects in the game:
+      Only female monsters can lay eggs.
+      Males are seduced by succubi, females are seduced by incubi.
+      Nymphs "seduce" males and "charm" females.
+      The Cave(wo)man and Priest(ess) classes have different names.
+      It determines how you are addressed (purely cosmetic).
+  If you are polymorphed into a single-sex monster, your base gender will
+  be altered but not your current one, with the exception that an incubus
+  will change into a succubus and vice versa.
+    "You are suddenly very feminine/masculine!"
+    "You don't feel like yourself." (polymorphed into single-sex monster,
+      but character's base sex has changed) 
+    "The amulet disintegrates!" (unless intrinsic unchanging)
+}
+amulet of ESP {
+  When worn, you will see monsters that have a brain when they are nearby,
+  or anywhere on the level when you are blind.  If eaten, the intrinsic
+  telepathy only works when blind. No messages.
+}
+amulet of life saving {
+  When worn, your life will be saved if you die; the amulet then
+  disintegrates.  No message when put on. No effect when eaten (nice try).
+}
+amulet of magical breathing{
+  When either worn or eaten, you gain amphibiousness and unbreathing.  You
+  can swim under water and cannot be strangled or choked.  No messages.
+}
+amulet of reflection {
+  When worn, rays from wands, spells, and breath attacks can be
+  reflected.  No message when put on.  No effect when eaten (nice try).
+}
+amulet of restful sleep {
+  When worn or eaten, you will fall asleep within 1 to 100 turns. You awaken
+  within 1 to 20 turns or when disturbed.  If you continue wearing an
+  amulet of restful sleep, the cycle will repeat.  No message.
+}
+amulet of strangulation {
+  When worn, you are strangled to death in 6 turns.  When eaten, you
+  instantly choke, with 1/20 chance of survival.  Exceptions are made
+  if you have unbreathing from an amulet of magical breathing or
+  polyself.
+    "It constricts your throat!"
+}
+amulet of unchanging {
+  When either worn or eaten, you are prevented from changing your current
+  form by polymorph or other means, and are also protected from being
+  slimed; any sliming in progress is halted. No messages.
+}
+amulet versus poison {
+  When either worn or eaten, you gain poison resistance.  No message.
+}
+cheap plastic imitation of the Amulet of Yendor {
+  No effect or message when put on.  Cannot be eaten.
+}
+Amulet of Yendor {
+  When carried, you get all of the following (mostly bad):
+    You get clairvoyance, if it is not blocked.
+    When casting spells, your energy is drained.
+    Hunger is increased (additional to normal amulet hunger).
+    Your luck timeout is increased.
+    Monster difficulty will depend on your deepest level reached, not
+    your current dungeon level.
+    Monsters are less likely to be generated asleep.
+    When going up levels in Gehennom, you may teleport down 0 to 3
+    levels instead.  The chance depends on your alignment:
+        UP    L      N      C
+        +1  75.0%  75.0%  75.0%
+         0   6.25   8.33  12.5
+        -1   6.25   8.33  12.5
+        -2   6.25   8.33   0.0
+        -3   6.25   0.0    0.0
+    You cannot level teleport.
+    Teleportation within the level is blocked 1/3 of the time.
+    The Wizard can teleport or level teleport to find you.
+    The Wizard will try to steal the Amulet.
+    You are permitted to enter the Plane of Earth by taking the upstairs,
+    or quaffing a cursed potion of gain level, from dungeon level 1.
+    You can activate the endgame portals.
+  When worn or wielded, you get messages about the amulet getting
+  "hotter" as you approach magic portals.  No message when putting
+  on.  Cannot be eaten.  (Would you sacrifice yourself, then?)
+}
+Hawaiian shirt          : $  3    5   8 :  0  C  Shops     --
+T-shirt                 :    2    5   2 :  0  C  Shops     --
+leather jacket          :   10   30  12 :  1  L            --
+leather armor           :    5  150  82 :  2  L            --
+orcish ring mail        :   80  250  20 :  2  I  #         crude ring mail
+studded leather armor   :   15  200  72 :  3  L  #         --
+ring mail               :  100  250  72 :  3  I            --
+scale mail              :   45  250  72 :  4  I            --
+orcish chain mail       :   75  300  20 :  4  I  #         crude chain mail
+chain mail              :   75  300  72 :  5  I  #         --
+elven mithril coat      :  240  150  15 :  5  M  ###       --
+splint mail             :   80  400  62 :  6  I  #         --
+banded mail             :   90  350  72 :  6  I            --
+dwarvish mithril coat   :  240  150  10 :  6  M  ###       --
+bronze plate mail       :  400  450  25 :  6  B            --
+plate mail      (tanko) :  600  450  44 :  7  I  ##        --
+crystal plate mail      :  820  450  10 :  7  G  ##        --
+red dragon scales       :  500   40   0 :  3  D  Fire      --
+white dragon scales     :  500   40   0 :  3  D  Cold      --
+orange dragon scales    :  500   40   0 :  3  D  Sleep     --
+blue dragon scales      :  500   40   0 :  3  D  Elec      --
+green dragon scales     :  500   40   0 :  3  D  Poison    --
+yellow dragon scales    :  500   40   0 :  3  D  Acd       --
+black dragon scales     :  700   40   0 :  3  D  Disint    --
+silver dragon scales    :  700   40   0 :  3  D  Reflect   --
+gray dragon scales      :  700   40   0 :  3  D  Magic     --
+red dragon scale mail   :  900   40   0 :  9  D  Fire      --
+white dragon scale mail :  900   40   0 :  9  D  Cold      --
+orange dragon scale mail:  900   40   0 :  9  D  Sleep     --
+blue dragon scale mail  :  900   40   0 :  9  D  Elec      --
+green dragon scale mail :  900   40   0 :  9  D  Poison    --
+yellow dragon scale mail:  900   40   0 :  9  D  Acd       --
+black dragon scale mail : 1200   40   0 :  9  D  Disint    --
+silver dragon scale mail: 1200   40   0 :  9  D  Reflect   --
+gray dragon scale mail  : 1200   40   0 :  9  D  Magic     --
+mummy wrapping          :    2    3   0 :  0  C  #Vis      --
+orcish cloak            :   40   10   8 :  0  C  ##        coarse mantelet
+dwarvish cloak          :   50   10   8 :  0  C  ##        hooded cloak
+leather cloak           :   40   15   8 :  1  L  #         --
+cloak of displacement   :   50   10  10 :  1  C  ##Displ   *piece of cloth
+oilskin cloak           :   50   10  10 :  1  C  ###Water  slippery cloak
+alchemy smock           :   50   10   9 :  1  C  #Poi+Acd  apron
+cloak of invisibility   :   60   10  10 :  1  C  ##Invis   *opera cloak
+clk of magic resistance :   60   10   2 :  1  C  ###Magic  *ornamental cope
+elven cloak             :   60   10   8 :  1  C  ###Stlth  faded pall
+robe                    :   50   15   3 :  2  C  ###Spell  --
+cloak of protection     :   50   10   9 :  3  C  ###Prot   *tattered cape
+fedora                  :    1    3   0 :  0  C            --
+dunce cap               :    1    4   3 :  0  C  Stupid    conical hat
+cornuthaum              :   80    4   3 :  0  C  ##Clair   conical hat
+dented pot              :    8   10   2 :  1  I            --
+elven leather helm      :    8    3   6 :  1  L            leather hat
+helmet         (kabuto) :   10   30  10 :  1  I            *plumed helmet
+orcish helm             :   10   30   6 :  1  I            iron skull cap
+helm of brilliance      :   50   50   6 :  1  I  Int+Wis   *etched helmet
+hm of opposite alignment:   50   50   6c:  1  I  Align     *crested helmet
+helm of telepathy       :   50   50   2 :  1  I  ESP       *visored helmet
+dwarvish iron helm      :   20   40   6 :  2  I            hard hat
+leather gloves (yugake) :    8   10  16 :  1  L            *old gloves
+gauntlets of dexterity  :   50   10   8 :  1  L  Dex       *padded gloves
+gauntlets of fumbling   :   50   10   8c:  1  L  Fumble    *riding gloves
+gauntlets of power      :   50   30   8 :  1  I  Str       *fencing gloves
+small shield            :    3   30   6 :  1  W            --
+orcish shield           :    7   50   2 :  1  I            red-eyed
+Uruk-hai shield         :    7   50   2 :  1  I            white-handed
+elven shield            :    7   40   2 :  2  W            blue and green
+dwarvish roundshield    :   10  100   4 :  2  I            large round
+large shield            :   10  100   7 :  2  I            --
+shield of reflection    :   50   50   3 :  2  S  Reflect   polished silver
+low boots               :    8   10  25 :  1  L            walking shoes
+elven boots             :    8   15  12 :  1  L  Stlth     *mud boots
+kicking boots           :    8   15  12 :  1  I  Kick      *buckled boots
+fumble boots            :   30   20  12c:  1  L  Fumble    *riding boots
+levitation boots        :   30   15  12c:  1  L  Lev       *snow boots
+jumping boots           :   50   20  12 :  1  L  Jump      *hiking boots
+speed boots             :   50   20  12 :  1  L  Speed     *combat boots
+water walking boots     :   50   20  12 :  1  L  WWalk     *jungle boots
+high boots              :   12   20  15 :  2  L            jackboots
+iron shoes              :   16   50   7 :  2  I            hard shoes
+
+acid resistance {
+  acquired by
+    Wearing:
+      yellow dragon scales or scale mail, or an alchemy smock.
+    Being polymorphed into:
+      spotted or ochre jelly, glass piercer, (baby) yellow dragon, green
+      mold, black naga (hatchling), gold or glass golem, or any of bmyP.
+  protects against
+    Acid attacks of ochre jellies, *yellow dragons, black nagas, Juiblex,
+    and the *Chromatic Dragon.
+   *Passive acid attacks of acid blobs, spotted and ochre jellies, and green
+    molds.
+    Damage from eating acidic corpses (acid blob, gelatinous cube,
+    spotted or ochre jelly, (baby) yellow dragon, green mold, black naga
+    (hatchling), and all P).
+    Damage from thrown or quaffed potions of acid.
+   * = may still corrode armour.
+}
+cold resistance {
+  acquired by
+    Wearing:
+      white dragon scales or scale mail, or a ring of cold resistance.
+    Eating:
+      gelatinous cube, winter wolf (cub), blue jelly, white dragon, brown
+      mold, frost giant, gray ooze, brown or black pudding, ice troll, yeti,
+      flesh golem, or the Chromatic Dragon; ring of cold resistance.
+        "You feel full of hot air."
+    Polymorphing into:
+      gelatinous cube, winter wolf (cub), freezing sphere, blue jelly, ice
+      vortex, Aleax, (baby) white dragon, silver dragon, earth elemental,
+      brown mold, frost giant, ice troll, xorn, yeti, flesh or iron golem,
+      ice devil, or any of yLMPWZ.
+    Reaching:
+      XL 1 as Valkyrie; XL 13 as Monk.
+        "You feel warm!"
+        "You feel cooler!" (level drain loss)
+    Wielding:
+      Frost Brand.
+    Granted when crowned.
+    May be lost by night-time gremlin attack.
+      "You feel cooler."
+  protects against
+   *Cold attacks of winter wolf (cub)s, freezing spheres, ice vortices,
+    silver and white dragons, all liches, ice trolls, ice devils, Asmodeus,
+    and the Chromatic Dragon.
+    Passive cold attacks of blue jellies and brown molds.
+   *Damage from Frost Brand's cold attack.
+   *Damage from wands of cold and the cone of cold spell.
+    Reduces slipping on ice.
+   * = may still freeze potions.
+}
+disintegration resistance {
+  acquired by
+    Wearing:
+      black dragon scales or scale mail.
+    Eating:
+      black dragon or the Chromatic Dragon.
+        "You feel very firm."
+        "You feel totally together, man." (hallucinating)
+    Polymorphing into:
+      energy vortex, black or yellow light, (baby) black dragon.
+  protects against
+    Disintegration attacks of black dragons and the Chromatic Dragon.
+   *Wide-angle disintegration beams of angry gods.
+   * = May still disintegrate armour.
+}
+fire resistance {
+  acquired by
+    Wearing:
+      red dragon scales or scale mail, or a ring of fire resistance.
+    Eating:
+      fire ant, gelatinous cube, pyrolisk, hell hound (pup), red dragon,
+      red mold, fire giant, red naga (hatchling), gray ooze, flesh golem,
+      the Wizard of Yendor, salamander, the Chromatic Dragon, Ixoth, or
+      Lord Surtur; ring of fire resistance.
+        "You feel a momentary chill."
+        "You be chillin'." (hallucinating)
+    Polymorphing into:  
+      fire ant, gelatinous cube, pyrolisk, hell hound (pup), flaming
+      sphere, steam or fire vortex, black or yellow light, (baby) red
+      dragon, fire elemental, red mold, fire giant, master lich, arch-lich,
+      red naga (hatchling), gray ooze, xorn, flesh or iron golem, horned
+      devil, succubus, incubus, erinys, barbed devil, marilith, vrock,
+      hezrou, bone devil, ice devil, nalfeshnee, pit fiend, balrog, or
+      salamander.
+    Reaching:
+      XL 11 as Monk; XL 20 as Priest.
+        "You feel cool!"
+        "You feel warmer!" (level drain loss)
+    Wielding:
+      Fire Brand.
+    Carrying:
+      The Mitre of Holiness.
+    Granted when crowned.
+    May be lost by night-time gremlin attack.
+      "You feel warmer."
+  protects against
+   *Fire attacks of fire ants, pyrolisks, hell hound (pup)s, flaming
+    spheres, steam and fire vortices, red dragons, fire elementals, red
+    nagas, salamanders, the Chromatic Dragon and Ixoth.
+    Passive fire attacks of fire elementals and red molds, 
+   *Damage from Fire Brand's fire attack.
+   *Damage from scrolls and wands of fire, and fireball spell.
+    Damage from scalding hot water from a sink and lit potions of oil.
+   *Damage from the pillar of fire spell cast by monster.
+   *Reduces damage from fire traps and chest fire traps, and lava.
+   * = may still boil potions and burn armour, scrolls and spellbooks.
+}
+magic resistance {
+  acquired by
+    Wearing:
+      gray dragon scales or scale mail, or a cloak of magic resistance.
+    Polymorphing into:
+      (baby) gray dragon.
+    Wielding:
+      Magicbane.
+    Carrying:
+      Orb of Detection, Sceptre of Might, Magic Mirror of Merlin, Eyes of
+      the Overworld, Platinum Yendorian Express Card, or Eye of the
+      Aethiopica.
+  protects against
+    Magic missile attacks of Angels, gray dragons, Yeenoghu, and the
+    Chromatic Dragon.
+    Passive magic missile attack of the Oracle.
+    Prevents instadeath and reduces chance of damage from death attack
+    of Death.
+    Damage from wands of striking, magic missiles, and death, and spells of
+    force bolt, magic missile, and finger of death.
+    Scaring and purging attacks of Magicbane.
+    "Touch of death", destroy armour, drain strength, and confusion spells
+    cast by monsters; paralysis and stunning spells' effect reduced to one
+    turn; psi bolt's and open wounds' damage halved.
+    Thrown potions of polymorph.
+    Damage from exploding spellbooks.
+    Polymorph, antimagic, teleport, and level teleport traps.
+    Reduces damage from cross-aligned artifact blast.
+    Reduces number of objects cursed from a "malignant aura"-type curse.
+}
+poison resistance {
+  acquired by
+    Wearing:
+      green dragon scales or scale mail, an alchemy smock, a ring of
+      poison resistance, or an amulet versus poison.
+    Eating:
+      killer or queen bee, soldier ant, giant beetle, quivering blob, 
+      gremlin, homunculus, quasit, tengu, blue jelly, white or gray or
+      black unicorn, xan, green dragon, brown or yellow or red mold,
+      shrieker, violet fungus, gray ooze, black or brown pudding, snake,
+      water moccasin, pit viper, cobra, flesh golem, nurse, Medusa, the
+      Wizard of Yendor, jellyfish, the Chromatic Dragon, Master Kaen, or
+      any of csN; amulet versus poison; ring of poison resistance.
+        "You feel healthy."
+        "You feel especially healthy." (already poison resistant through XL)
+    Polymorphing into:
+      killer or queen bee, soldier ant, giant beetle, werejackal, werewolf,
+      wererat, gremlin, manes, homunculus, lemure, quasit, tengu, blue
+      jelly, rabid rat, white or gray or black unicorn, couatl, Aleax,
+      vampire bat, (baby) green dragon, air or earth or fire or water
+      elemental, brown or yellow or red mold, shrieker, violet fungus, 
+      quantum mechanic, snake, water moccasin, pit viper, cobra, horned
+      devil, succubus, incubus, erinys, barbed devil, marilith, vrock,
+      hezrou, bone devil, ice devil, nalfeshnee, pit fiend, balrog,
+      jellyfish, or any of bcksvxyLMNPVWZ'.
+    Reaching:
+      XL 1 as Barbarian, Healer or an orc; XL 3 as Monk; XL 20 as Tourist.
+        "You feel healthy!" (Monk)
+        "You feel hardy!" (Tourist)
+    Granted when crowned.
+    May be lost by night-time gremlin attack.
+      "You feel a little sick!"
+  protects against
+    Poison attacks of killer and queen bees, soldier ants, quasits, rabid
+    rats, centipedes, giant spiders, scorpions, couatls, vampire bats,
+    green dragons, guardian nagas, snakes, water moccasins, pit vipers,
+    cobras, iron golems, Medusa, erinyes, bone devils, Orcus, Geryon,
+    Baalzebub, jellyfish, the Chromatic Dragon, and the Master Assassin. 
+    Effects of eating poisonous corpses: killer or queen bee, soldier ant,
+    giant beetle, werejackal, werewolf, wererat, gremlin, homunculus, rabid
+    rat, giant spider, scorpion, xan, vampire bat, (baby) green dragon,
+    yellow mold, guardian naga, green slime, quantum mechanic, snake, water
+    moccasin, pit viper, cobra, Medusa, jellyfish, salamander, the Chromatic
+    Dragon, Scorpius, and all k.
+    Damage from stinking clouds.
+    Prevents instakill and reduces damage from poisoned weapons and poison
+    dart traps, poison-spike pits, and poison gas/needle chest traps.
+    Reduces damage from "contaminated water" from a sink.
+    Reduces effects of potions of sickness and contact-poisoned spellbooks.
+}
+shock resistance {
+  acquired by
+    Wearing:
+      blue dragon scales or scale mail, or a ring of shock resistance.
+    Eating:
+      gelatinous cube, blue dragon, storm giant, black or brown pudding,
+      flesh golem, electric eel, or the Chromatic Dragon; ring of shock
+      resistance.
+        "Your health currently feels amplified!"
+        "You feel grounded in reality." (hallucinating)
+    Polymorphing into:
+      gelatinous cube, shocking sphere, energy vortex, grid bug, black or
+      yellow light, Aleax, (baby) blue dragon, storm giant, arch-lich, black
+      or brown pudding, green slime, flesh or iron golem, or electric eel.
+    Reaching:
+      XL 15 as Monk.
+        "You feel insulated!"
+        "You feel conductive!" (level drain loss)
+    Granted when crowned.
+  protects against
+   *Electricity attacks of shocking spheres, energy vortices, grid bugs,
+    blue dragons, electric eels, and the Chromatic Dragon.
+    Passive electricity attacks of energy vortices.
+   *Damage from Mjollnir's electricity attack.
+   *Damage from wands of lightning.
+   *Damage from lightning bolt spell cast by monster.
+    Lightning bolts from angry gods.
+   *Electricity traps on chests.
+    Reduces damage from electric-chair thrones.
+   * = may still destroy wands and rings.
+}
+sleep resistance {
+  acquired by
+    Wearing:
+      orange dragon scales or scale mail.
+    Eating:
+      gelatinous cube, homunculus, orange dragon, flesh golem, elf,
+      Woodland-elf, Green-elf, Grey-elf, elf-lord, Elvenking, or the
+      Chromatic Dragon; ring of free action.
+        "You feel wide awake."
+    Polymorphing into:
+      manes, homunculus, lemure, Aleax, vampire bat, (baby) orange dragon,
+      Woodland-elf, Green-elf, Grey-elf, elf-lord, Elvenking, salamander,
+      or any of bvyLMVWZ'
+    Reaching:
+      XL 1 as Monk; XL 4 as an elf.
+        "You feel awake!"
+        "You feel tired!" (level drain loss)
+    Granted when crowned.
+  protects against
+    Sleep attacks of homunculi, orange dragons, Nazgul, and the Chromatic
+    Dragon.
+    Wands and spells of sleep.
+    Amulets of restful sleep.
+    Quaffed and thrown potions of sleeping.
+    Sleeping gas traps.
+}
+
+Demonbane      long sword   $2500  aborw  L    +d5    x2   demons
+Excalibur      long sword    4000   bcdw  L !  +d5  +d10           lev, search
+Grayswandir    silver saber  8000   borw  L    +d5    x2   silver  hallu
+Snickersnee    katana        1200   borw  LS    +0   +d8
+Sunsword       long sword    1500  aborw  L    +d5    x2   undead
+O Detection    crystal ball  2500   bq w  LA!                      mgc, spell
+S Might        mace          2500   bq w  LC!  +d5    x2   align   mgc
+M Mirr Merlin  mirror        1500   bq w  LK!                      mgc
+Mitre Holiness helm brllnce  2000   bq w  LP!                      undead, fire
+T Muramasa     tsurugi       4500   bq w  LS!   +0   +d8   bisect  luck    
+Cleaver        battle axe    1500  b orw  NB   +d3   +d6
+Giantslayer    long sword     200  b orw  N    +d5    x2   giants
+Magicbane      athame        3500  b orw  NW   +d3   +d4   magic   mgc, curse
+Mjollnir       war hammer    4000  b orw  NV   +d5  +d24   elec
+Vorpal Blade   long sword    4000  bcorw  N    +d5   +d1   behead
+H Ahriman      luckstone     2500  b q w  NB!   +5    x2   luck    stealth
+S Aesculapius  quarterstaff  5000  b q w  NH!   +0    x2   lev     lev, regen
+Eyes Overworld lenses        2500  b q w  NM!                      mgc
+PYEC           credit card   7000  b q w  NT!                      mgc, spell
+Orb of Fate    crystal ball  3500  b q w  NV!              luck    spell, phys
+Eye Aethiopica amulet ESP    4000  b q w  NW!                      mgc, spell
+Grimtooth      orcish dagger  300  b orw  C    +d2   +d6
+Orcrist        elv brdswd    2000  bnorw  C    +d5    x2   orcs
+Sting          elv dagger     800  bnorw  C    +d5    x2   orcs    warn, web
+Stormbringer   runesword     8000  bcorw  C !  +d5   +d2   lev     lev
+L Diana        bow           4000  b q w  CRa! +d5     0           reflect
+M Key Thievery skeleton key  3500  b q w  CRo!                     warn, phys
+Dragonbane     broadsword     500   borw       +d5    x2   dragon
+Fire Brand     long sword    3000   borw       +d5    x2   fire    fire
+Frost Brand    long sword    3000   borw       +d5    x2   cold    cold
+Ogresmasher    war hammer     200   borw       +d5    x2   ogres
+Trollsbane     morning star   200   borw       +d5    x2   trolls
+Werebane       silver saber  1500   borw       +d5    x2   were
+Bell Opening   silver bell    5000   g
+Can Invocation candelabrum    5000   g
+Book Dead      papyrus spbk  10000   g
+Amulet Yendor  amulet Yendor 30000   g
+
+Demonbane {
+  (lawful long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against demons (all & except Death,
+    Pestilence, Famine, the mail daemon, sandestins, and djinn).
+  Invoked
+    No effect.
+}
+Excalibur {
+  (lawful long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and +d10 damage to all monsters.
+    Confers level drain resistance and automatic searching.
+    Manual and automatic searching is more likely to succeed.
+    Even eyeless monsters will be able to locate you.
+    Demon princes will be generated hostile.
+  Invoked
+    No effect.
+}
+Grayswandir {
+  (lawful silver saber)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage to all monsters.
+    Confers hallucination resistance.
+    Silver damage against silver-hating creatures (a normal effect of
+    silver sabers).
+  Invoked
+    No effect.
+}
+Snickersnee {
+  (lawful katana)
+  Carried
+    No effect.
+  Wielded
+    +d8 damage to all monsters.
+  Invoked
+    No effect.
+  Note: Do not confuse this artifact with Vorpal Blade.
+}
+Sunsword {
+  (lawful long sword)
+  Carried
+    No effect
+  Wielded
+    +d5 to hit and x2 damage only against undead.  Undead include all
+    liches (L), all mummies (M), all vampires (V) and vampire bats, all
+    wraiths/wights (W), all zombies (Z), ghosts, and shades.
+    Acts as a light source.
+    Prevents blinding from light-based sources.
+  Invoked
+    No effect.
+}
+The Orb of Detection {
+  (lawful* Archeologist crystal ball)
+  Carried
+    Confers magic resistance and telepathy.
+    Half damage when attacked by spells.
+  Invoked
+    Toggles invisibility on/off.
+}
+The Sceptre of Might {
+  (lawful* Caveman mace)
+  Carried
+    Confers magic resistance.
+  Wielded
+    +d5 to hit and x2 damage only against monsters not of its alignment.
+  Invoked
+    Toggles conflict on/off.
+}
+The Magic Mirror of Merlin {
+  (lawful Knight mirror)
+  Carried
+    Confers magic resistance and telepathy.
+    Knights get double damage when: turning undead in any way; using
+    a spell of force bolt, magic missile, unskilled/basic cone of
+    cold, drain life, or finger of death; or using a wand of striking.
+  Applied or wielded
+    Speaks to you (gives random rumour, from the true file if blessed,
+    the false file if cursed, or either if uncursed).
+  Invoked
+    No effect.
+}
+The Mitre of Holiness {
+  (lawful* Priest helm of brilliance)
+  Carried
+    Confers fire resistance.
+  Worn
+    Priests take half damage from undead and demons.  Undead include
+    all liches (L), all mummies (M), all vampires (V) and vampire
+    bats, all wraiths/wights (W), all zombies/ghouls (Z), ghosts, and
+    shades.  Demons are all & except Death, Pestilence, Famine, the
+    mail daemon, djinn, and sandestins.
+    Increase in intelligence and wisdom (normal helm effects).
+  Invoked
+    Boost in spell energy.
+}
+The Tsurugi of Muramasa {
+  (lawful Samurai tsurugi)
+  Carried
+    Acts as luckstone.
+  Wielded
+    +d8 damage to all monsters.
+    5% chance (based on your to-hit roll) of extra damage:
+      Monsters engulfing you are instantly killed.
+      Damage is doubled against big monsters.
+      All other monsters are instantly killed.
+  Invoked
+    No effect.
+}
+Cleaver {
+  (neutral* battle axe)
+  Carried
+    No effect.
+  Wielded
+    +d3 to hit and +d6 damage to all monsters.
+  Invoked
+    No effect.
+}
+Giantslayer {
+  (neutral long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against giants, stone giants, hill
+    giants, fire giants, frost giants, storm giants, giant mummies,
+    giant zombies, Cyclops, and Lord Surtur.  Note that it does not
+    affect ettins or titans.
+  Invoked
+    No effect.
+}
+Magicbane {
+  (neutral* athame)
+  Carried
+    No effect.
+  Wielded
+    +d3 to hit and +d4 damage to all monsters.
+    May also probe, stun, scare, or purge (see section below).
+    Confers magic resistance.
+    Protects inventory against 95% of curses.
+  Invoked
+    No effect.
+  Note: You can also engrave "Elbereth" with any non-cursed athame and
+    it won't dull the weapon.
+}
+Mjollnir {
+  (neutral* war hammer)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and +d24 damage against monsters that are NOT shock-
+    resistant.
+    Can only be thrown when you have strength 25 (such as with gauntlets
+    of power) and you are wielding it.  When thrown by Valkyries and you
+    are not confused, stunned, blind, hallucinating, or fumbling, there
+    is a 99% chance that the artifact will return to your hand.
+    Can only be kicked one square.
+  Invoked
+    No effect.
+  Note: Does NOT provide shock resistance!
+}
+Vorpal Blade {
+  (neutral long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and +1 damage to all monsters.
+    Instantly kills Jabberwocks.
+    5% chance (based on your to-hit roll) of instantly killing monsters
+    by beheading.  Monster must not be headless, amorphous, non-corporeal,
+    or swallowing you.  Worms must be hit on their head segment.
+  Invoked
+    No effect.
+  Note: Do not confuse this artifact with Snickersnee.
+}
+The Heart of Ahriman {
+  (neutral* Barbarian luckstone)
+  Carried
+    Confers stealth.
+    +d5 to hit if thrown or slung at a monster; x2 damage if slung.
+  Invoked
+    Toggles levitation on/off.
+}
+The Staff of Aesculapius {
+  (neutral Healer quarterstaff)
+  Carried
+    No effect.
+  Wielded
+    x2 damage to all non-level-drain-resistant monsters (all except
+    undead, demons, were-creatures, and Death).
+    Drains levels (1 to 8 hp) from non-level-drain-resistant monsters.
+    Confers hungerless regeneration and protection from level drain.
+  Invoked
+    Heals half hp loss, cures sickness, unblinds (except from cream or
+    venom) and unslimes.
+}
+The Eyes of the Overworld {
+  (neutral* Monk lenses)
+  Carried
+    Confer magic resistance.
+  Worn
+    Confer X-ray vision (astral vision).
+    Prevent stunning effect of Archons' radiant gaze.
+  Invoked
+    Enlightenment.
+}
+The Platinum Yendorian Express Card {
+  (neutral Tourist credit card)
+  Carried
+    Confers magic resistance and telepathy.
+    Half damage when attacked by spells.
+  Invoked
+     Charges objects like a scroll of charging with the same blessed/
+     cursed status.  Only Tourists can perform blessed charging.
+}
+The Orb of Fate {
+  (neutral* Valkyrie crystal ball)
+  Carried
+    Confers warning and half spell damage.
+    Half damage when attacked physically.
+    Acts as a luckstone.
+  Invoked
+    Level teleport.
+}
+The Eye of the Aethiopica {
+  (neutral* Wizard amulet of ESP)
+  Carried
+    Confers magic resistance and faster energy regeneration.
+    Half damage when attacked by spells.
+  Worn
+    Confers telepathy (normal amulet effect).
+  Invoked
+    Creates a single-use portal to the closest level of any dungeon
+    branch you have already visited.  The jump occurs immediately, and
+    won't occur if you have the Amulet or are teleporting to or from the
+    endgame levels.
+}
+Grimtooth {
+  (chaotic orcish dagger)
+  Carried
+    No effect.
+  Wielded
+    +d2 to hit and +d6 damage to all monsters.
+  Invoked
+    No effect.
+}
+Orcrist {
+  (chaotic elven broadsword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against orcs (all o, orc mummies, and
+    orc zombies).
+  Invoked
+    No effect.
+}
+Sting {
+  (chaotic elven dagger)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against orcs (all o, orc mummies, and
+    orc zombies).
+    Confers the warning intrinsic, specifically attuned to orcs.
+    Cuts through all webs.
+  Invoked
+    No effect.
+}
+Stormbringer {
+  (chaotic runesword)
+  Carried
+    No effect.
+  Wielded
+    Attacks tame and peaceful monsters without confirmation.
+    +d5 to hit and +d2 damage to all non-level-drain-resistant monsters
+    (all except undead, demons, were-creatures, and Death).
+    Drains levels (1 to 8 hp) from non-level-drain-resistant monsters.
+    Protects from level drain.
+  Invoked
+    No effect.
+}
+The Longbow of Diana {
+  (chaotic* Ranger bow)
+  Carried
+    Confers telepathy.
+  Wielded
+    Confers reflection.
+    +d5 to hit when firing arrows against all monsters.
+  Invoked
+    Creates 7-16 uncursed arrows if uncursed, 7-21 blessed arrows if
+    blessed, 6-11 cursed arrows if cursed.
+}
+The Master Key of Thievery {
+  (chaotic Rogue skeleton key)
+  Carried
+    Confers warning and teleport control.
+    Half damage when attacked physically.
+  Applied or wielded
+    Speaks to you (gives random rumour, from the true file if blessed,
+    the false file if cursed, or either if uncursed).
+  Invoked
+    Untraps boxes and doors with 100% success.
+}
+Dragonbane {
+  (unaligned broadsword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against dragons (all D).
+  Invoked
+    No effect.
+}
+Fire Brand {
+  (unaligned long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage against monsters that are NOT fire-resistant.
+    Confers fire resistance.
+  Invoked
+    No effect.
+}
+Frost Brand {
+  (unaligned long sword)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage against monsters that are NOT cold-resistant.
+    Confers cold resistance.
+  Invoked
+    No effect.
+}
+Ogresmasher {
+  (unaligned war hammer)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against ogres (all O).
+  Invoked
+    No effect.
+}
+Trollsbane {
+  (unaligned morning star)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against trolls (all T).
+  Invoked
+    No effect.
+}
+Werebane {
+  (unaligned silver saber)
+  Carried
+    No effect.
+  Wielded
+    +d5 to hit and x2 damage only against were-creatures in both human
+    and creature forms.
+    Silver damage against silver-hating creatures (a normal effect of
+    silver sabers).
+  Invoked
+    No effect.
+}
+  meatball              : $  5    1    0  :    5      5       1
+  meat ring             :    5    1    0  :    5      5       1
+  meat stick            :    5    1    0  :    5      5       1
+  egg                   :    9    1   85  :   80     80       1
+  tripe ration          :   15   10  140  :  200     20       2
+  huge chunk of meat    :  105  400    0  : 2000      5      20
+  corpse                :    5  vary   0  : vary    vary    vary
+  kelp frond            :    6    1    0  :   30     30       1
+  eucalyptus leaf       :    6    1    3  :   30     30       1
+  clove of garlic       :    7    1    7  :   40     40       1
+  sprig of wolfsbane    :    7    1    7  :   40     40       1
+  apple                 :    7    2   15  :   50     25       1
+  carrot                :    7    2   15  :   50     25       1
+  pear                  :    7    2   10  :   50     25       1
+  banana                :    9    2   10  :   80     40       1
+  orange                :    9    2   10  :   80     40       1 
+  melon                 :   10    5   10  :  100     20       1
+  slime mold            :   17    5   75  :  250     50       1
+  fortune cookie        :    7    1   55  :   40     40       1
+  candy bar             :   10    2   13  :  100     50       1
+  cream pie             :   10   10   25  :  100     10       1
+  lump of royal jelly   :   15    2    0  :  200    100       1
+  pancake               :   15    2   25  :  200    100       2
+  C-ration              :   20   10    0  :  300     30       1
+  K-ration              :   25   10    0  :  400     40       1
+  cram ration           :   35   15   20  :  600     40       3
+  food ration (gunyoki) :   45   20  380  :  800     40       5
+  lembas wafer          :   45    5   20  :  800    160       2
+  tin                   :    5   10   75  : vary    vary    vary
+
+  dilithium crystal     :$4500    1   28*  : soft  white
+  diamond               : 4000    1   25*  : hard  white
+  ruby                  : 3500    1   22*  : hard  red
+  jacinth               : 3250    1   19*  : hard  orange
+  sapphire              : 3000    1   16*  : hard  blue
+  black opal            : 2500    1   13*  : hard  black
+  emerald               : 2500    1   10*  : hard  green
+  turquoise             : 2000    1    7*  : soft  green, blue
+  aquamarine            : 1500    1    1*  : hard  green, blue
+  citrine               : 1500    1    4*  : soft  yellow
+  amber                 : 1000    1    1*  : soft  yellowish brown
+  topaz                 :  900    1    1*  : hard  yellowish brown
+  jet                   :  850    1    1*  : soft  black
+  opal                  :  800    1    1*  : soft  white
+  chrysoberyl           :  700    1    1*  : soft  yellow
+  garnet                :  700    1    1*  : soft  red
+  amethyst              :  600    1    1*  : soft  violet
+  jasper                :  500    1    1*  : soft  red
+  fluorite              :  400    1    1*  : soft  green, blue, white, violet
+  jade                  :  300    1    1*  : soft  green
+  agate                 :  200    1    1*  : soft  orange
+  obsidian              :  200    1    1*  : soft  black
+  black glass           :    0    1   76   : soft  black
+  blue glass            :    0    1   77   : soft  blue
+  green glass           :    0    1   77   : soft  green
+  orange glass          :    0    1   76   : soft  orange
+  red glass             :    0    1   77   : soft  red
+  violet glass          :    0    1   77   : soft  violet
+  white glass           :    0    1   77   : soft  white
+  yellow glass          :    0    1   77   : soft  yellow
+  yellowish brown glass :    0    1   77   : soft  yellowish brown
+  luckstone             :   60   10   10   : soft  gray stone
+  touchstone            :   45   10    8   : soft  gray stone
+  flintstone            :    1   10   10   : soft  gray stone
+  loadstone             :    1  500   10   : soft  gray stone
+  rock                  :    0   10  100   : soft  rock
+
+rock {
+  Rocks are immediately identified on examination, and pose little
+  difficulty or challenge to the adventurer. They make a cheap and usually
+  plentiful source of ammunition, should you lack or wish to conserve other
+  ranged attacks. ("Good ol' rock. Nothing beats that." -- Bart Simpson)
+}
+touchstone {
+  Touchstones are most readily distinguished by their effect when rubbed
+  with something hard, such as an iron weapon; they will make a "scritch,
+  scritch" sound. Their primary use is rubbing them with other gems and
+  stones; if blessed (or also if uncursed, for Archeologists and gnomes),
+  the object rubbed with will be identified. Rubbing a touchstone of any
+  b/u/c status with rings or gold, or non-touchstone gray stones with
+  other types of object, may produce coloured streaks or scratches; but
+  will not provide any further useful information.
+  Note that being rubbed on a cursed touchstone may shatter gems or rocks
+  (but not other gray stones).
+}
+luckstone {
+  Luckstones can be identified by their effect (see "Luck" below) with the
+  help of enlightenment, by their valuation by shopkeepers, or by the
+  presence of the guaranteed luckstone at the top of a gems cache in the
+  Gnome King's Wine Cellar version of the bottom level of the Gnomish Mines.
+  (Or, indeed, by the Heart of Ahriman being one).
+}
+loadstone (The Jeremey DeCausemaker Stone) {
+  As noted above, loadstones are almost always generated cursed; furthermore,
+  they autocurse on being dropped or otherwise leaving the main inventory,
+  and a cursed loadstone cannot be let go of. It is therefore best to
+  identify them while they lie on the ground; kicking them will usually
+  elicit a "Thump!" rather than movement across the floor, but being
+  extremely strong (at least 22 strength; 18/** is not sufficient) while
+  wearing kicking boots or being a Samurai or Monk may allow some movement
+  (watch how far it goes).
+}
+flint stone {
+  These exist primarily to make it hard to identify touchstones, loadstones
+  and luckstones, and are best identified by elimination of the other three.
+  They have few special properties, but do inflict somewhat more damage than
+  other stones or gems when used as sling ammunition.
+}
+
+gold piece      : $  1  0.01  1000 :  $       0   0.01
+boulder         :    0  6000   100 :  '     d20   2000
+statue          :    0  vary   900 :  '     d20   2500
+heavy iron ball :   10   480*    0 :  0     d25*   480*
+iron chain      :    0   120     0 :  _    d4+1    120
+acid venom      :    0     1     0 :  .     2d6      0
+blinding venom  :    0     1     0 :  .       0      0
+
+a            giant ant   2  18   3   0            1d4
+a           killer bee   1  18  -1   0  P         1d3P
+a          soldier ant   3  18   3   0  P         2d4 3d4P
+a             fire ant   3  18   3  10  F         2d4 2d4F
+a         giant beetle   5   6   4   0  P         3d6
+a            queen bee   9  24  -4   0  P         1d8P
+b            acid blob   1   3   8   0  spa*      (1d8A)
+b       quivering blob   5   1   8   0  sP        1d8
+b      gelatinous cube   6   6   8   0  FCSEpa*   2d4. (1d4.)
+c          chickatrice   4   4   8  30  P*        1d2 0d0* (0d0*)
+c           cockatrice   5   6   6  30  P*        1d3 0d0* (0d0*)
+c             pyrolisk   6   6   6  30  FP        G2d6F
+d               jackal   0  12   7   0            1d2
+d                  fox   0  15   7   0            1d3
+d               coyote   1  12   7   0            1d4
+d           werejackal   2  12   7  10  p         1d4@
+d           little dog   2  18   6   0            1d6
+d                  dog   4  16   5   0            1d6
+d            large dog   6  15   4   0            2d4
+d                dingo   4  16   5   0            1d6
+d                 wolf   5  12   4   0            2d4
+d             werewolf   5  12   4  20  p         2d6@
+d                 warg   7  12   4   0            2d6
+d      winter wolf cub   5  12   4   0  C         1d8 B1d8C
+d          winter wolf   7  12   4  20  C         2d6 B2d6C
+d       hell hound pup   7  12   4  20  F         2d6 B2d6F
+d           hell hound  12  14   2  20  F         3d6 B3d6F
+e            gas spore   1   3  10   0            [X4d6]
+e         floating eye   2   1   9  10            (0d70.)
+e      freezing sphere   6  13   4   0  C         X4d6C
+e       flaming sphere   6  13   4   0  F         X4d6F
+e      shocking sphere   6  13   4   0  E         X4d6E
+f               kitten   2  18   6   0            1d6
+f             housecat   4  16   5   0            1d6
+f               jaguar   4  15   6   0            1d4 1d4 1d8
+f                 lynx   5  15   6   0            1d4 1d4 1d10
+f              panther   5  15   6   0            1d6 1d6 1d10
+f            large cat   6  15   4   0            2d4
+f                tiger   6  12   6   0            2d4 2d4 1d10
+g              gremlin   5  12   2  25  P         1d6 1d6 1d4 0d0i
+g             gargoyle   6  10  -4   0  *         2d6 2d6 2d4
+g      winged gargoyle   9  15  -2   0  *         3d6 3d6 3d4
+h               hobbit   1   9  10   0            W1d6
+h                dwarf   2   6  10  10            W1d8
+h              bugbear   3   9   5   0            W2d4
+h           dwarf lord   4   6  10  10            W2d4 W2d4
+h           dwarf king   6   6  10  20            W2d6 W2d6
+h          mind flayer   9  12   5  90            W1d4 2!I 2!I 2!I
+h   master mind flayer  13  12   0  90            W1d8 2!I 2!I 2!I 2!I 2!I
+i                manes   1   3   7   0  sp        1d3 1d3 1d4
+i           homunculus   2  12   6  10  SP        1d3S
+i                  imp   3  12   2  20            1d4
+i               lemure   3   3   7   0  Sp        1d3
+i               quasit   3  15   2  20  P         1d2!D 1d2!D 1d4
+i                tengu   6  13   5  30  P         1d7
+j           blue jelly   4   0   8  10  CP        (0d6C)
+j        spotted jelly   5   0   8  10  a*        (0d6A)
+j          ochre jelly   6   3   8  20  a*        E3d6A (3d6A)
+k               kobold   0   6  10   0  p         W1d4
+k         large kobold   1   6  10   0  p         W1d6
+k          kobold lord   2   6  10   0  p         W2d4
+k        kobold shaman   2   6   6  10  p         M0d0+
+l           leprechaun   5  15   8  20            1d2$
+m          small mimic   7   3   7   0  a         3d4
+m          large mimic   8   3   7  10  a         3d4m
+m          giant mimic   9   3   7  20  a         3d6m 3d6m
+n           wood nymph   3  12   9  20            0d0- 0d0-
+n          water nymph   3  12   9  20            0d0- 0d0-
+n       mountain nymph   3  12   9  20            0d0- 0d0-
+o               goblin   0   6  10   0            W1d4
+o            hobgoblin   1   9  10   0            W1d6
+o                  orc   1   9  10   0            W1d8
+o             hill orc   2   9  10   0            W1d6
+o           Mordor orc   3   5  10   0            W1d6
+o             Uruk-hai   3   7  10   0            W1d8
+o           orc shaman   3   9   5  10            M0d0+
+o          orc-captain   5   5  10   0            W2d4 W2d4
+p         rock piercer   3   1   3   0            2d6
+p         iron piercer   5   1   0   0            3d6
+p        glass piercer   7   1   0   0  a         4d6
+q                rothe   2   9   7   0            1d3 1d3 1d8
+q                mumak   5   9   0   0            4d12 2d6
+q            leocrotta   6  18   4  10            2d6 2d6 2d6
+q               wumpus   8   3   2  10            3d6
+q          titanothere  12  12   6   0            2d8
+q       baluchitherium  14  12   5   0            5d4 5d4
+q             mastodon  20  12   5   0            4d8 4d8
+r            sewer rat   0  12   7   0            1d3
+r            giant rat   1  10   7   0            1d3
+r            rabid rat   2  12   6   0  p         2d4!C
+r              wererat   2  12   6  10  p         1d4@
+r            rock mole   3   3   0  20            1d6
+r            woodchuck   3   3   0  20            1d6
+s          cave spider   1  12   3   0  P         1d2
+s            centipede   2   4   3   0  P         1d3P
+s         giant spider   5  15   4   0  P         2d4P
+s             scorpion   5  15   3   0  P         1d2 1d2 1d4P
+t         lurker above  10   3   3   0            E1d8d
+t              trapper  12   3   3   0            E1d10d
+u        white unicorn   4  24   2  70  P         1d12 1d6
+u         gray unicorn   4  24   2  70  P         1d12 1d6
+u        black unicorn   4  24   2  70  P         1d12 1d6
+u                 pony   3  16   6   0            1d6 1d2
+u                horse   5  20   5   0            1d8 1d3
+u             warhorse   7  24   4   0            1d10 1d4
+v            fog cloud   3   1   0   0  sp*       E1d6
+v          dust vortex   4  20   2  30  sp*       E2d8b
+v           ice vortex   5  20   2  30  csp*      E1d6C
+v        energy vortex   6  20   2  30  sdep*     E1d6E E0d0e (0d4E)
+v         steam vortex   7  22   2  30  fsp*      E1d8F
+v          fire vortex   8  22   2  30  fsp*      E1d10F (0d4F)
+w       baby long worm   8   3   5   0            1d6
+w     baby purple worm   8   3   5   0            1d6
+w            long worm   8   3   5  10            1d4
+w          purple worm  15   9   6  20            2d8 E1d10d
+x             grid bug   0  12   9   0  ep        1d1E
+x                  xan   7  18  -4   0  P         1d4x
+y         yellow light   3  15   0   0  fcsdepa*  X10d20b
+y          black light   5  15   0   0  fcsdepa*  X10d12h
+z                zruty   9   8   3   0            3d4 3d4 3d6
+A               couatl   8  10   5  30  p         2d4P 1d3 2d4w
+A                Aleax  10   8   0  30  csep      W1d6 W1d6 1d4
+A                Angel  14  10  -4  55  csep      W1d6 W1d6 1d4 M2d6M
+A               ki-rin  16  18  -5  90            2d4 2d4 3d6 M2d6+
+A               Archon  19  16  -6  80  fcsep     W2d4 W2d4 G2d6b 1d8 M4d6+
+B                  bat   0  22   8   0            1d4
+B            giant bat   2  22   7   0            1d6
+B                raven   4  20   6   0            1d6 1d6b
+B          vampire bat   5  20   6   0  sp        1d6 0d0P
+C       plains centaur   4  18   4   0            W1d6 1d6
+C       forest centaur   5  18   3  10            W1d8 1d6
+C     mountain centaur   6  20   2  10            W1d10 1d6 1d6
+D     baby gray dragon  12   9   2  10            2d6
+D   baby silver dragon  12   9   2  10            2d6
+D      baby red dragon  12   9   2  10  f         2d6
+D    baby white dragon  12   9   2  10  c         2d6
+D   baby orange dragon  12   9   2  10  s         2d6
+D    baby black dragon  12   9   2  10  d         2d6
+D     baby blue dragon  12   9   2  10  e         2d6
+D    baby green dragon  12   9   2  10  p         2d6
+D   baby yellow dragon  12   9   2  10  a*        2d6
+D          gray dragon  15   9  -1  20            B4d6M 3d8 1d4 1d4
+D        silver dragon  15   9  -1  20  c         B4d6C 3d8 1d4 1d4
+D           red dragon  15   9  -1  20  F         B6d6F 3d8 1d4 1d4
+D         white dragon  15   9  -1  20  C         B4d6C 3d8 1d4 1d4
+D        orange dragon  15   9  -1  20  S         B4d25S 3d8 1d4 1d4
+D         black dragon  15   9  -1  20  D         B4d10D 3d8 1d4 1d4
+D          blue dragon  15   9  -1  20  E         B4d6E 3d8 1d4 1d4
+D         green dragon  15   9  -1  20  P         B4d6P 3d8 1d4 1d4
+D        yellow dragon  15   9  -1  20  a*        B4d6A 3d8 1d4 1d4
+E              stalker   8  12   3   0            4d4
+E        air elemental   8  36   2  30  p*        E1d10
+E       fire elemental   8  12   2  30  fp*       3d6F (0d4F)
+E      earth elemental   8   6   2  30  fcp*      4d6
+E      water elemental   8   6   2  30  p*        5d6
+F               lichen   0   1   9   0            0d0m
+F           brown mold   1   0   9   0  CP        (0d6C)
+F          yellow mold   1   0   9   0  P         (0d4s)
+F           green mold   1   0   9   0  a*        (0d4A)
+F             red mold   1   0   9   0  FP        (0d4F)
+F             shrieker   3   1   7   0  P        
+F        violet fungus   3   1   7   0  P         1d4 0d0m
+G                gnome   1   6  10   4            W1d6
+G           gnome lord   3   8  10   4            W1d8
+G       gnomish wizard   3  10   4  10            M0d0+
+G           gnome king   5  10  10  20            W2d6
+H                giant   6   6   0   0            W2d10
+H          stone giant   6   6   0   0            W2d10
+H           hill giant   8  10   6   0            W2d8
+H           fire giant   9  12   4   5  F         W2d10
+H          frost giant  10  12   3  10  C         W2d12
+H          storm giant  16  12   3  10  E         W2d12
+H                ettin  10  12   3   0            W2d8 W3d6
+H                titan  16  18  -3  70            W2d8 M0d0+
+H             minotaur  15  15   6   0            3d10 3d10 2d8
+J           jabberwock  15  12  -2  50            2d10 2d10 2d10 2d10
+K         Keystone Kop   1   6  10  10            W1d4
+K         Kop Sergeant   2   8  10  10            W1d6
+K       Kop Lieutenant   3  10  10  20            W1d8
+K          Kop Kaptain   4  12  10  20            W2d6
+L                 lich  11   6   0  30  Csp       1d10C M0d0+
+L             demilich  14   9  -2  60  Csp       3d4C M0d0+
+L          master lich  17   9  -4  90  FCsp      3d6C M0d0+
+L            arch-lich  25   9  -6  90  FCsep     5d6C M0d0+
+M         kobold mummy   3   8   6  20  csp       1d4
+M          gnome mummy   4  10   6  20  csp       1d6
+M            orc mummy   5  10   5  20  csp       1d6
+M          dwarf mummy   5  10   5  20  csp       1d6
+M            elf mummy   6  12   4  30  csp       2d4
+M          human mummy   6  12   4  30  csp       2d4 2d4
+M          ettin mummy   7  12   4  30  csp       2d6 2d6
+M          giant mummy   8  14   3  30  csp       3d4 3d4
+N   red naga hatchling   3  10   6   0  FP        1d4
+N black naga hatchling   3  10   6   0  Pa*       1d4
+N golden naga hatchlin   3  10   6   0  P         1d4
+N guardian naga hatchl   3  10   6   0  P         1d4
+N             red naga   6  12   4   0  FP        2d4 B2d6F
+N           black naga   8  14   2  10  Pa*       2d6 S0d0A
+N          golden naga  10  14   2  70  P         2d6 M4d6+
+N        guardian naga  12  16   0  50  P         1d6. S1d6P 2d4
+O                 ogre   5  10   5   0            W2d5
+O            ogre lord   7  12   3  30            W2d6
+O            ogre king   9  14   4  60            W3d5
+P            gray ooze   3   1   8   0  FCPa*     2d8R
+P        brown pudding   5   3   8   0  CEPa*     0d0r
+P        black pudding  10   6   6   0  CEPa*     3d8R (0d0R)
+P          green slime   6   6   6   0  cepa*     1d4@ (0d0@)
+Q     quantum mechanic   7  12   3  10  p         1d4t
+R         rust monster   5  18   2   0            0d0R 0d0R (0d0R)
+R         disenchanter  12  12 -10   0            4d4" (0d0")
+S         garter snake   1   8   8   0            1d2
+S                snake   4  15   3   0  P         1d6P
+S       water moccasin   4  15   3   0  P         1d6P
+S            pit viper   6  15   2   0  P         1d4P 1d4P
+S               python   6   3   5   0            1d4 0d0 1d4w 2d4
+S                cobra   6  18   2   0  P         2d4P S0d0b
+T                troll   7  12   4   0            W4d2 4d2 2d6
+T            ice troll   9  10   2  20  C         W2d6 2d6C 2d6
+T           rock troll   9  12   0   0            W3d6 2d8 2d6
+T          water troll  11  14   4  40            W2d8 2d8 2d6
+T             Olog-hai  13  12  -4   0            W3d6 2d8 2d6
+U           umber hulk   9   6   2  25            3d4 3d4 2d5 G0d0c
+V              vampire  10  12   1  25  sp        1d6 1d6V
+V         vampire lord  12  14   0  50  sp        1d8 1d8V
+V     Vlad the Impaler  14  18  -3  80  sp        W1d10 1d10V
+W         barrow wight   3  12   5   5  csp       W0d0V M0d0+ 1d4
+W               wraith   6  12   4  15  csp*      1d6V
+W               Nazgul  13  12   0  25  csp       W1d4V B2d25S
+X                 xorn   8   9  -2  20  fc*       1d3 1d3 1d3 4d6
+Y               monkey   2  12   6   0            0d0- 1d3
+Y                  ape   4  12   6   0            1d3 1d3 1d6
+Y              owlbear   5  12   5   0            1d6 1d6 2d8
+Y                 yeti   5  15   6   0  C         1d6 1d6 1d4
+Y      carnivorous ape   6  12   6   0            1d4 1d4 1d8
+Y            sasquatch   7  15   6   0            1d6 1d6 1d8
+Z        kobold zombie   0   6  10   0  csp       1d4
+Z         gnome zombie   1   6  10   0  csp       1d5
+Z           orc zombie   2   6   9   0  csp       1d6
+Z         dwarf zombie   2   6   9   0  csp       1d6
+Z           elf zombie   3   6   9   0  csp       1d7
+Z         human zombie   4   6   8   0  csp       1d8
+Z         ettin zombie   6   8   6   0  csp       1d10 1d10
+Z         giant zombie   8   8   6   0  csp       2d8 2d8
+Z                ghoul   3   6  10   0  csp       1d2. 1d3
+Z             skeleton  12   8   4   0  csp*      W2d6 1d6<
+'          straw golem   3  12  10   0  sp        1d2 1d2
+'          paper golem   3  12  10   0  sp        1d3
+'           rope golem   4   9   8   0  sp        1d4 1d4 6d1
+'           gold golem   5   9   6   0  asp       2d3 2d3
+'        leather golem   6   6   6   0  sp        1d6 1d6
+'           wood golem   7   3   4   0  sp        3d4
+'          flesh golem   9   8   9  30  FCSEP     2d8 2d8
+'           clay golem  11   7   7  40  sp        3d10
+'          stone golem  14   6   5  50  sp*       3d8
+'          glass golem  16   6   1  50  asp       2d8 2d8
+'           iron golem  18   6   3  60  fcsep     W4d10 B4d6P
+@                human   0  12  10   0            W1d6
+@              wererat   2  12  10  10  p         W2d4
+@           werejackal   2  12  10  10  p         W2d4
+@             werewolf   5  12  10  20  p         W2d4
+@                  elf  10  12  10   2  S         W1d8
+@         Woodland-elf   4  12  10  10  S         W2d4
+@            Green-elf   5  12  10  10  S         W2d4
+@             Grey-elf   6  12  10  10  S         W2d4
+@             elf-lord   8  12  10  20  S         W2d4 W2d4
+@            Elvenking   9  12  10  25  S         W2d4 W2d4
+@         doppelganger   9  12   5  20  s         W1d12
+@                nurse  11   6   0   0  P         2d6H
+@           shopkeeper  12  18   0  50            W4d4 W4d4
+@                guard  12  12  10  40            W4d10
+@             prisoner  12  12  10   0            W1d6
+@               Oracle  12   0   0  50            (0d4M)
+@       aligned priest  12  12  10  50  e         W4d10 1d4 M0d0+
+@          high priest  25  15   7  70  fsep      W4d10 2d8 M2d8+ M2d8+
+@              soldier   6  10  10   0            W1d8
+@             sergeant   8  10  10   5            W2d6
+@           lieutenant  10  10  10  15            W3d4 W3d4
+@              captain  12  10  10  15            W4d4 W4d4
+@             watchman   6  10  10   0            W1d8
+@        watch captain  10  10  10  15            W3d4 W3d4
+@               Medusa  20  12   2  50  P*        W2d4 1d8 G0d0* 1d6P
+@     Wizard of Yendor  30  12  -8 100  FP        2d12- M0d0+
+@              Croesus  20  15   0  40            W4d10
+                 ghost  10   3  -5  50  csdp*     1d1
+                 shade  12  10  10   0  csdp*     2d6. 1d6<
+&          water demon   8  12  -4  30  fp        W1d3 1d3 1d3
+&         horned devil   6   9  -5  50  fp        W1d4 1d4 2d3 1d3
+&             succubus   6  12   0  70  fp        0d0& 1d3 1d3
+&              incubus   6  12   0  70  fp        0d0& 1d3 1d3
+&               erinys   7  12   2  30  fp        W2d4P
+&         barbed devil   8  12   0  35  fp        2d4 2d4 3d4
+&             marilith   7  12  -6  80  fp        W2d4 W2d4 2d4 2d4 2d4 2d4
+&                vrock   8  12   0  50  fp        1d4 1d4 1d8 1d8 1d6
+&               hezrou   9   6  -2  55  fp        1d3 1d3 4d4
+&           bone devil   9  15  -1  40  fp        W3d4 2d4P
+&            ice devil  11   6  -4  55  fcp       1d4 1d4 2d4 3d4C
+&           nalfeshnee  11   9  -1  65  fp        1d4 1d4 2d4 M0d0+
+&            pit fiend  13   6  -3  65  fp        W4d2 W4d2 2d4
+&               balrog  16   5  -2  75  fp        W8d4 W4d6
+&              Juiblex  50   3  -7  65  fpa*      E4d10# S3d6A
+&             Yeenoghu  56  18  -5  80  fp        W3d6 W2d8c 1d6. M2d6M
+&                Orcus  66   9  -6  85  fp        W3d6 3d4 3d4 M8d6+ 2d4P
+&               Geryon  72   3  -3  75  fp        3d6 3d6 2d4P
+&             Dispater  78  15  -2  80  fp        W4d6 M6d6+
+&            Baalzebub  89   9  -5  85  fp        2d6P G2d6s
+&             Asmodeus 105  12  -7  90  fcp       4d4 M6d6C
+&           Demogorgon 106  15  -8  95  fp        M8d6+ 1d4V 1d6# 1d6#
+&                Death  30  12  -5 100  fcsep*    8d8z 8d8z
+&           Pestilence  30  12  -5 100  fcsep*    8d8z 8d8z
+&               Famine  30  12  -5 100  fcsep*    8d8z 8d8z
+&               djinni   7  12   4  30  p*        W2d8
+&            sandestin  13  12   4  60  *         W2d6 W2d6
+;            jellyfish   3   3   6   0  P         3d3P
+;              piranha   5  12   4   0            2d6
+;                shark   7  12   2   0            5d6
+;            giant eel   5   9  -1   0            3d6 0d0w
+;         electric eel   7  10  -3   0  E         4d6E 0d0w
+;               kraken  20   3   6   0            2d4 2d4 2d6w 5d4
+:                 newt   0   6   8   0            1d2
+:                gecko   1   6   8   0            1d3
+:               iguana   2   6   7   0            1d4
+:       baby crocodile   3   6   7   0            1d4
+:               lizard   5   6   6  10  *         1d6
+:            chameleon   6   5   6  10            4d2
+:            crocodile   6   9   5   0            4d2 1d12
+:           salamander   8  12  -1   0  Fs        W2d8 1d6F 2d6 3d6F
+@         archeologist  10  12  10   1            W1d6 W1d6
+@            barbarian  10  12  10   1  p         W1d6 W1d6
+@              caveman  10  12  10   0            W2d4
+@            cavewoman  10  12  10   0            W2d4
+@               healer  10  12  10   1  p         W1d6
+@               knight  10  12  10   1            W1d6 W1d6
+@                 monk  10  12  10   2            1d8 1d8
+@               priest  10  12  10   2            W1d6
+@            priestess  10  12  10   2            W1d6
+@               ranger  10  12  10   2            W1d4
+@                rogue  10  12  10   1            W1d6 W1d6
+@              samurai  10  12  10   1            W1d8 W1d8
+@              tourist  10  12  10   1            W1d6 W1d6
+@             valkyrie  10  12  10   1  c         W1d8 W1d8
+@               wizard  10  12  10   3            W1d6
+@       Lord Carnarvon  20  12   0  30            W1d6
+@               Pelias  20  12   0  30  p         W1d6
+@        Shaman Karnov  20  12   0  30            W2d4
+@          Hippocrates  20  12   0  40  p         W1d6
+@          King Arthur  20  12   0  40            W1d6 W1d6
+@         Grand Master  25  12   0  70  fsep      4d10 2d8 M2d8+ M2d8+
+@          Arch Priest  25  12   7  70  fsep      W4d10 2d8 M2d8+ M2d8+
+@                Orion  20  12   0  30            W1d6
+@    Master of Thieves  20  12   0  30            W2d6 W2d6 2d4-
+@            Lord Sato  20  12   0  30            W1d8 W1d6
+@            Twoflower  20  12  10  20            W1d6 W1d6
+@                 Norn  20  12   0  80  c         W1d8 W1d6
+@    Neferet the Green  20  12   0  60            W1d6 M2d8+
+&   Minion of Huhetotl  16  12  -2  75  fp        W8d4 W4d6 M0d0+ 2d6-
+@           Thoth Amon  16  12   0  10  p         W1d6 M0d0+ M0d0+ 1d4-
+D     Chromatic Dragon  16  12   0  30  FCSDEPa*  B6d8z M0d0+ 2d8- 4d8 4d8 1d6
+H              Cyclops  18  12   0   0            W4d8 W4d8 2d6-
+D                Ixoth  15  12  -1  20  F         B8d6F 4d8 M0d0+ 2d4 2d4-
+@          Master Kaen  25  12 -10  10  P         16d2 16d2 M0d0+ 1d4-
+&               Nalzok  16  12  -2  85  fp        W8d4 W4d6 M0d0+ 2d6-
+s             Scorpius  15  12  10   0  P         2d6 2d6- 1d4#
+@      Master Assassin  15  12   0  30            W2d6P W2d8 2d6-
+@     Ashikaga Takauji  15  12   0  40            W2d6 W2d6 2d6-
+H          Lord Surtur  15  12   2  50  F         W2d10 W2d10 2d6-
+@             Dark One  15  12   0  80            W1d6 W1d6 1d4- M0d0+
+@              student   5  12  10  10            W1d6
+@            chieftain   5  12  10  10  p         W1d6
+@          neanderthal   5  12  10  10            W2d4
+@            attendant   5  12  10  10  p         W1d6
+@                 page   5  12  10  10            W1d6 W1d6
+@                abbot   5  12  10  20            8d2 3d2s M0d0+
+@              acolyte   5  12  10  20            W1d6 M0d0+
+@               hunter   5  12  10  10            W1d4
+@                 thug   5  12  10  10            W1d6 W1d6
+@                ninja   5  12  10  10            W1d8 W1d8
+@                roshi   5  12  10  10            W1d8 W1d8
+@                guide   5  12  10  20            W1d6 M0d0+
+@              warrior   5  12  10  10            W1d8 W1d8
+@           apprentice   5  12  10  30            W1d6 M0d0+
+
+booze      (sake) : $ 50   20   42  :
+fruit juice       :   50   20   42  :
+see invisible     :   50   20   42  :
+sickness          :   50   20   42  :
+confusion         :  100   20   42  :
+extra healing     :  100   20   47  :
+hallucination     :  100   20   40  :
+healing           :  100   20   57  :
+restore ability   :  100   20   40  :
+sleeping          :  100   20   42  :
+water             :  100   20   92  :  clear
+blindness         :  150   20   40  :
+gain energy       :  150   20   42  :
+invisibility      :  150   20   40  :
+monster detection :  150   20   40  :
+object detection  :  150   20   42  :
+enlightenment     :  200   20   20  :
+full healing      :  200   20   10  :
+levitation        :  200   20   42  :
+polymorph         :  200   20   10  :
+speed             :  200   20   42  :
+acid              :  250   20   10  :
+oil               :  250   20   30  :
+gain ability      :  300   20   42  :
+gain level        :  300   20   20  :
+paralysis         :  300   20   42  :
+
+acid {
+  Cures stoning.
+  If you are acid resistant, no effect.
+    "This tastes sour." (not hallucinating)
+    "This tastes tangy." (hallucinating)
+  blessed
+    You lose 1 to 4 hit points, and abuse your constitution.
+      "This burns a little!"
+  uncursed
+    You lose 1 to 8 hit points, and abuse your constitution.
+      "This burns like acid!"
+  cursed
+    You lose 2 to 16 hit points, and abuse your constitution.
+      "This burns a lot!"
+  hits monster
+    The monster loses the same number of hit points as you would on
+    quaffing the potion. Some monsters may resist.
+      "<monster> shrieks in pain!"
+      "<monster> writhes in pain!" (silent monster)
+  hits you
+    May be thrown by monsters.
+    If you are acid resistant, no effect. Otherwise, same effect as
+    quaffing potion.
+  vapors
+    Abuses your constitution.
+}
+blindness {
+  blessed
+    You are blinded for 125 to 324 (more) turns.
+      "A cloud of darkness falls upon you." (was unblind, not hallucinating)
+      "Oh, bummer!  Everything is dark!  Help!" (was unblind, hallucinating)
+      "You have a peculiar feeling for a moment, then it passes."
+        (was blind, not hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (was blind, hallucinating)
+      "Your vision seems to dim for a moment but is normal now."
+        (blindness overcome by Eyes of the Overworld, not hallucinating)
+      "Your vision seems to dim for a moment but is happier now."
+        (blindness overcome by Eyes of the Overworld, hallucinating)
+  uncursed
+    You are blinded for 250 to 449 (more) turns.
+      (Same messages as above)
+  cursed
+    You are blinded for 375 to 574 (more) turns.
+      (Same messages as above)
+  hits monster
+    The monster is blinded for 64 to 126 (more) turns, or 64 to 95 if the
+    monster resists.  Monster blindness does not last longer than 127
+    turns, and (of course) the monster must have eyes.
+  vapors
+    May be thrown by monsters.
+    You become blind for 1 to 5 (more) turns.
+      "It suddenly gets dark."  (were unblind and not asleep)
+}
+booze {
+  blessed
+    You gain 30 nutrition.
+    You heal one hit point (if necessary; undiluted only).
+    You abuse your wisdom.
+      "Ooph!  This tastes like liquid fire!"  (undiluted, not hallucinating)
+      "Ooph!  This tastes like dandelion wine!"  (undiluted, hallucinating)
+      "Ooph!  This tastes like watered down liquid fire!"
+        (diluted, not hallucinating)
+      "Ooph!  This tastes like watered down dandelion wine!"
+        (diluted, hallucinating)
+  uncursed
+    You gain 20 nutrition.
+    You heal one hit point (if necessary; undiluted only).
+    You are confused for 3 to 24 (more) turns.
+    You abuse your wisdom.
+      (Same messages as above)
+  cursed
+    You gain 10 nutrition.
+    You heal one hit point (if necessary; undiluted only).
+    You are confused for 3 to 24 (more) turns.
+    You pass out for 1 to 15 turns.
+    You abuse your wisdom.
+      (Same messages as above)
+  hits monster
+    The monster becomes confused.  Some monsters may resist.
+  vapors
+    You become confused for 1 to 5 (more) turns.
+      "You feel somewhat dizzy."
+}
+confusion {
+  blessed
+    You are confused for 8 to 14 (more) turns.
+      "Huh, What?  Where am I?"  (not hallucinating, not already confused)
+      "What a trippy feeling!"  (hallucinating, not already confused)
+      "You have a peculiar feeling for a moment, then it passes."
+        (not hallucinating, already confused))
+      "You have a normal feeling for a moment, then it passes."
+        (hallucinating, already confused))
+  uncursed
+    You are confused for 16 to 22 (more) turns.
+      (Same messages as above)
+  cursed
+    You are confused for 24 to 30 (more) turns.
+      (Same messages as above)
+  hits monster
+    The monster becomes confused.  Some monsters may resist.
+  vapors
+    May be thrown by monsters.
+    You become confused for 1 to 5 (more) turns.
+      "You feel somewhat dizzy."
+}
+enlightenment {
+  blessed
+    You gain one point of intelligence and one point of wisdom.
+    You see your attributes and exercise your wisdom.
+      "You feel self-knowledgeable..."
+      "The feeling subsides."
+  uncursed
+    You see your attributes and exercise your wisdom.
+      "You feel self-knowledgeable..."
+      "The feeling subsides."
+  cursed
+    You abuse your wisdom.
+      "You have an uneasy feeling..."
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+extra healing {
+  blessed
+    You gain 8 to 64 hit points.  If this would put you above your
+    maximum hit points, then your maximum is increased by 5 and your hit
+    points become this new maximum.
+    Cures sickness, blindness, and hallucination.
+    Exercises constitution and strength.
+      "You feel much better."
+  uncursed
+    You gain 6 to 48 hit points.  If this would put you above your
+    maximum hit points, then your maximum is increased by 2 and your hit
+    points become this new maximum.
+    Cures sickness, blindness, and hallucination.
+    Exercises constitution and strength.
+      "You feel much better."
+  cursed
+    You gain 4 to 32 hit points, up to your maximum.
+    Cures blindness and hallucination.
+    Exercises constitution and strength.
+      "You feel much better."
+  quaffed by monster
+    The monster gains the same number of hit points as if you quaffed it.
+    If this would put the monster above its maximum hit points, its
+    maximum is increased by 2 (even if cursed, 5 if blessed) and its hit
+    points become this new maximum.
+    The monster is unblinded.
+      "<monster> looks much better."  (if seen)
+  hits monster
+    If Pestilence, its current and maximum hit points are halved.  May
+    resist.
+      "Pestilence looks rather ill."  (if seen)
+    Otherwise, the monster is restored to maximum hit points.
+      "<monster> looks sound and hale again."  (if seen)
+  vapors
+    You heal up to 2 hit points, and exercise your constitution.
+    No message.
+}
+fruit juice {
+  blessed
+    You gain 30 nutrition (15 if diluted).
+      "This tastes like <fruit> juice."  (undiluted, not hallucinating)
+      "This tastes like 10% real <fruit> juice all-natural beverage."
+        (undiluted, hallucinating)
+      "This tastes like reconstituted <fruit> juice."
+        (diluted, not hallucinating)
+      "This tastes like 10% real reconstituted <fruit> juice all-natural
+      beverage."  (diluted, hallucinating)
+  uncursed
+    You gain 20 nutrition (10 if diluted).
+      (Same messages as above)
+  cursed
+    You gain 10 nutrition (5 if diluted).
+      "Yecch!  This tastes rotten."  (not hallucinating)
+      "Yecch!  This tastes overripe."  (hallucinating)
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+full healing {
+  blessed
+    You gain 400 hit points.  If this would put you above your maximum
+    hit points, then your maximum is increased by 8 and your hit points
+    become this new maximum.
+    If you have lost any experience levels, one level is restored, to
+    a maximum of half the levels you have lost.
+    Cures sickness, blindness, and hallucination.
+    Exercises constitution and strength.
+      "You feel completely healed."
+  uncursed
+    You gain 400 hit points.  If this would put you above your maximum
+    hit points, then your maximum is increased by 4 and your hit points
+    become this new maximum.
+    Cures sickness, blindness, and hallucination.
+    Exercises constitution and strength.
+      "You feel completely healed."
+  cursed
+    You gain 400 hit points, up to your maximum.
+    Cures blindness and hallucination.
+    Exercises constitution and strength.
+      "You feel completely healed."
+  quaffed by monster
+    The monster's maximum hit points are increased by 4 (even if cursed,
+    8 if blessed) and its hit points become this new maximum.
+    The monster is unblinded.
+      "<monster> looks completely healed."  (if seen)
+  hits monster
+    If Pestilence, its current and maximum hit points are halved.  May
+    resist.
+      "Pestilence looks rather ill."  (if seen)
+    Otherwise, the monster is restored to maximum hit points.
+      "<monster> looks sound and hale again."  (if seen)
+  vapors
+    You heal up to 3 hit points, and exercise your constitution.
+      No message.
+}
+gain ability {
+  blessed
+    If you have sustain ability, no effect.
+      "You have a peculiar feeling for a moment, then it passes."
+        (not hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (hallucinating)
+    Otherwise, all statistics are increased by one (up to maximum).
+      "You feel strong!"  (strength)
+      "You feel smart!"  (intelligence)
+      "You feel wise!"  (wisdom)
+      "You feel agile!"  (dexterity)
+      "You feel tough!"  (constitution)
+      "You feel charismatic!"  (charisma)
+      "Your cap constricts briefly, then relaxes again."
+      (you can't change wisdom or intelligence with dunce cap)
+      "You're already as <statistic> as you can get."  (if already maximum)
+  uncursed
+    If you have sustain ability, no effect.
+    Otherwise, one random statistic not at maximum is increased by one.
+    Up to six tries to pick a statistic are made.  If only one stat was
+    raisable, there is a 33.49% chance that it will do nothing!
+      (Same messages as above)
+  cursed
+    No effect.
+      "Ulch!  That potion tasted foul!"
+  hits monster
+    The monster is restored to maximum hit points.
+      "<monster> looks sound and hale again."  (if seen)
+  vapors
+    If cursed, no effect.
+      "Ulch!  That potion smells terrible!"
+      "Your eyes sting." (unbreathing)
+    If uncursed, one random statistic is RESTORED by one.  No message.
+    If blessed, all statistics are RESTORED by one.  No message.
+}
+gain energy {
+  blessed
+    Your energy and maximum energy are increased by 7 to 11.
+    Your wisdom is exercised.
+      "Magical energies course through your body."
+  uncursed
+    Your energy and maximum energy are increased by 2 to 6.
+    Your wisdom is exercised.
+      "Magical energies course through your body."
+  cursed
+    Your energy and maximum energy are decreased by 2 to 6, but not
+    below zero.
+    Your wisdom is exercised.
+      "You feel lackluster."
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+gain level {
+  blessed
+    You get more hit points and energy.
+      "You feel more experienced."
+    If less than level 30, you gain one experience level and skill
+    advancement slot.
+      "Welcome to experience level <number>."
+    Your experience is set to a random amount midway to the next level.
+  uncursed
+    You get more hit points and energy.
+      "You feel more experienced."
+    If less than level 30, you gain one experience level and skill
+    advancement slot.
+      "Welcome to experience level <number>."
+  cursed
+    If you have the Amulet and are on dungeon level 1, you go to the
+    Plane of Earth.
+      "You rise up, through the <ceiling>!"
+    If there is no level directly above you, nothing happens.
+      "You have an uneasy feeling."
+    Otherwise, you go to the next higher dungeon level.
+      "You rise up, through the <ceiling>!"
+  quaffed by monster
+    Same effect (and limits) to monster as if you quaffed it, except that
+    monsters with the Amulet can't ascend to the Plane of Earth.  Monsters
+    gaining experience may grow into a more powerful class of monster; if
+    the new class is genocided, the monster is killed!
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+hallucination {
+  blessed
+    You hallucinate for 300 to 499 (more) turns unless you have
+    hallucination resistance from wielding Grayswandir.
+      "You have a normal feeling for a moment, then it passes."
+        (already hallucinating)
+      "You have a peculiar feeling for a moment, then it passes."
+        (not already hallucinating, hallucination resistance)
+      "Oh wow!  Everything seems so cosmic!"
+        (not already hallucinating, no hallucination resistance)
+  uncursed
+    You hallucinate for 600 to 799 (more) turns.
+      (Same messages as above)
+  cursed
+    You hallucinate for 900 to 1099 (more) turns.
+      (Same messages as above)
+  hits monster
+    No effect.
+  vapors
+    No effect.
+      "You have a momentary vision."
+}
+healing {
+  blessed
+    You gain 8 to 32 hit points.  If this would put you above your
+    maximum hit points, then your maximum is increased by 1 and your hit
+    points become this new maximum.
+    Cures sickness and blindness, and exercises constitution.
+      "You feel better."
+  uncursed
+    You gain 6 to 24 hit points.  If this would put you above your
+    maximum hit points, then your maximum is increased by 1 and your hit
+    points become this new maximum.
+    Cures blindness, and exercises constitution.
+      "You feel better."
+  cursed
+    You gain 4 to 16 hit points, up to your maximum.
+    Exercises constitution.
+      "You feel better."
+  quaffed by monster
+    The monster gains the same number of hit points as if you quaffed it.
+    If this would put the monster above its maximum hit points, its
+    maximum is increased by 1 (even if cursed) and its hit points become
+    this new maximum.
+    The monster is unblinded.
+      "<monster> looks better."  (if seen)
+  hits monster
+    If Pestilence, its current and maximum hit points are halved.  May
+    resist.
+      "Pestilence looks rather ill."  (if seen)
+    Otherwise, the monster is restored to maximum hit points.
+      "<monster> looks sound and hale again."  (if seen)
+  vapors
+    You heal up to 1 hit point, and exercise your constitution.
+      No message.
+}
+invisibility {
+  blessed
+    You become permanently invisible.
+      "You have a peculiar feeling for a moment, then it passes."
+        (already invisible, blind or wearing a mummy wrapping, and not
+        hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (already invisible or blind or wearing a mummy wrapping, and
+        hallucinating)
+      "Gee!  All of a sudden, you can't see yourself." (not hallucinating)
+      "Gee!  All of a sudden, you can see right through yourself."
+        (not hallucinating, see invisible)
+      "Far out, man!  You can't see yourself." (hallucinating)
+      "Far out, man!  You can see right through yourself." (hallucinating,
+        see invisible)
+  uncursed
+    You become invisible for 31 to 45 (more) turns.
+      (Same messages as above)
+  cursed
+    You become invisible for 31 to 45 (more) turns.
+      (Same messages as above)
+    You aggravate monsters for a moment.
+      "For some reason, you feel your presence is known."
+  quaffed by monster
+    The monster becomes invisible unless wearing a mummy wrapping.
+      "Suddenly you cannot see <monster>."  (can't see invisible)
+      "<monster's> body takes on a strange transparency."
+        (see invisible and not hallucinating)
+      "<monster's> body takes on a normal transparency."
+        (see invisible and hallucinating)
+    If cursed, you are awoken and told the monster's position.
+      "For some reason, <monster's> presence is known to you."
+      "You feel aggravated at <monster>."  (already awake)
+      "Aggravated, you are jolted into full consciousness."
+        (was unconscious)
+  hits monster
+    The monster becomes invisible unless wearing a mummy wrapping.
+  vapors
+    No effect.
+    "For an instant you couldn't see yourself!"
+      (not already invisible, not blind)
+    "For an instant you could see right through yourself!"
+      (not already invisible, not blind, see invisible)
+}
+levitation {
+  blessed
+    You levitate for 250 to 299 (more) turns.
+      "You start to float in the air!"  (not hallucinating)
+      "Up, up, and awaaaay!  You're walking on air!"  (hallucinating)
+      "You float up, out of the pit!"  (were trapped in pit)
+      "You float up, only your <leg> is still stuck."
+        (still in beartrap)
+      "It feels as though you'd lost some weight."  (Water Plane)
+      "You gain control over your movements."  (Air Plane)
+    You can land at will.
+  uncursed
+    You levitate for 10 to 149 (more) turns.
+      (Same messages as above)
+  cursed
+    You levitate for 10 to 149 (more) turns.
+      (Same messages as above)
+    You lose any ability to land at will.
+    If you were already levitating or on the water level,
+      "You have a peculiar feeling for a moment, then it passes."
+        (not hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (hallucinating)
+    Else if you are on a up staircase or up ladder, the < command is
+    attempted.  It might not succeed (e.g., stressed).
+    Otherwise, you suffer 1 to 10 points of damage (1 if wearing any hat).
+      "You hit your <head> on the <ceiling>."
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+monster detection {
+  blessed
+    You detect monsters for 21 to 60 (more) turns (if already at least 300
+    turns, just one more turn) and exercise your wisdom.
+      No message if not already detecting monsters.
+      "You feel lonely." (no monsters on level)
+      "You have a peculiar feeling for a moment, then it passes."
+        (already detecting monsters, not hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (already detecting monsters and hallucinating)
+  uncursed
+    You briefly see monsters on that level and exercise your wisdom.
+      "You sense the presence of monsters."
+    If no monsters on the level (other than you), no visible effect.
+      "You have a strange feeling for a moment, then it passes."
+        (beginner not hallucinating)
+      "You have a normal feeling for a moment, then it passes."
+        (beginner hallucinating)
+      "You feel threatened."  (not hallucinating)
+      "You get the heebie jeebies."  (hallucinating)
+  cursed
+    You briefly see monsters on that level and exercise your wisdom.
+      (Same messages as above)
+    Any monsters that are asleep or paralyzed are awoken.
+      "Monsters sense the presence of you."
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+object detection {
+  If no objects on level and none had appeared on the map, no effect.
+    "You have a strange feeling for a moment, then it passes."
+      (beginner not hallucinating)
+    "You have a normal feeling for a moment, then it passes."
+      (beginner hallucinating)
+    "You feel a lack of something."  (otherwise)
+  If there are only objects in your inventory, you exercise your wisdom.
+    "You sense objects nearby."  (not hallucinating)
+    "You sense something nearby."  (hallucinating)
+  blessed
+    You detect objects on that level and exercise your wisdom.
+      "You sense the presence of objects."  (not hallucinating)
+      "You sense the presence of something."  (hallucinating)
+      "You sense the absence of objects."  (not hallucinating)
+      "You sense the absence of something."  (hallucinating)
+    You know the appearance of all objects on that level (and in your
+    inventory) as if you had seen them.
+  uncursed
+    You detect objects on that level and exercise your wisdom.
+      (Same messages as above)
+  cursed
+    You detect objects on that level and exercise your wisdom.
+      (Same messages as above)
+    Mimics will appear as objects.
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+oil {
+  You can #untrap a squeaky board with a potion of oil or can of grease.
+  Potions of oil can be lit by (a)pplying them.
+  If quaffing a lit potion:
+    If you are a monster that likes fire, you exercise your wisdom.
+      "Ahh, a refreshing drink."
+    Otherwise, you lose 3 to 12 hit points (1 to 4 if fire resistant),
+    and abuse your wisdom.
+      "You burn your <face>."
+  blessed or uncursed
+    You abuse your wisdom.
+      "That was smooth!"
+  cursed
+    You abuse your wisdom.
+      "This tastes like castor oil."
+  hits monster or you
+    No effect if unlit.
+    If lit, splatters oil, causing an explosion of fire with 4 to 16 damage.
+  vapors
+    No effect.
+}
+paralysis {
+  blessed
+    If you have free action, no effect.
+      "You stiffen momentarily."
+    Otherwise, you are paralyzed for 13 to 22 turns and abuse your dexterity.
+      "You are motionlessly suspended." (levitating or on Air or Water Planes)
+      "You are frozen in place!" (riding)
+      "Your <feet> are frozen to the <floor>!"  (otherwise)
+  uncursed
+    If you have free action, no effect; otherwise, you are paralyzed for 25
+    to 34 turns and abuse your dexterity.
+      (Same messages as above)
+  cursed
+    If you have free action, no effect; otherwise, you are paralyzed for 37
+    to 46 turns and abuse your dexterity.
+      (Same messages as above)
+  hits monster
+    If not already paralyzed, the monster is paralyzed for 1 to 25 turns.
+    Otherwise, no effect.
+  vapors
+    May be thrown by monsters.
+    If you have free action, no effect.
+      "You stiffen momentarily."
+    Otherwise, you are paralyzed for 1 to 5 (more) turns, and your dexterity
+    is abused.
+      "Something seems to be holding you."
+}
+polymorph {
+  quaffed
+    You polymorph into a new monster unless you have unchanging.
+      "You feel a little strange." (not hallucinating)
+      "You feel a little normal." (hallucinating)
+  hits you
+    You polymorph into a new monster unless you have unchanging or magic
+    resistance.
+      "You feel a little strange." (not hallucinating)
+      "You feel a little normal." (hallucinating)
+  hits monster
+    Same effect as a wand of polymorph.
+  quaffed by monster
+    The monster polymorphs into a new monster.
+      "<monster> suddenly mutates!"
+  vapors
+    Abuses your constitution.
+}
+restore ability {
+  blessed
+    Restores all lost statistics to their previous maximum amount.
+      "Wow!  This makes you feel great!"
+      "Wow!  This makes you feel better!" (other things wrong with you)
+  uncursed
+    Restores one random lost statistic to its previous maximum amount.
+      "Wow!  This makes you feel good!"
+  cursed
+    No effect.
+      "Ulch!  This makes you feel mediocre!"
+  hits monster
+    The monster is restored to maximum hit points.
+      "<monster> looks sound and hale again."  (if seen)
+  vapors
+    If cursed, no effect.
+      "Ulch!  That potion smells terrible!"
+      "Your eyes sting." (unbreathing)
+    If uncursed, one random statistic is restored by one.  No message.
+    If blessed, all statistics are restored by one.  No message.
+}
+see invisible {
+  blessed
+    You see invisible permanently and are unblinded.
+      "This tastes like <fruit> juice."  (undiluted, not hallucinating)
+      "This tastes like 10% real <fruit> juice all-natural beverage."
+        (undiluted, hallucinating)
+      "This tastes like reconstituted <fruit> juice."
+        (diluted, not hallucinating)
+      "This tastes like 10% real reconstituted <fruit> juice all-natural
+      beverage."  (diluted, hallucinating)
+      "You can see through yourself, but you are visible!" 
+        (invisible without previous see invisible)
+  uncursed
+    You see invisible for 750 to 849 (more) turns and are unblinded.
+      (Same messages as above)
+  cursed
+    You see invisible for 750 to 849 (more) turns.
+      "Yecch!  This tastes rotten."  (not hallucinating)
+      "Yecch!  This tastes overripe."  (hallucinating)
+  hits monster
+    No effect.
+  vapors
+    No effect.
+}
+sickness {
+  blessed
+    "Yecch!  This stuff tastes like poison."
+    "(But in fact it was mildly stale <fruit> juice.)"
+    If you are not a Healer, you lose one hit point, even if poison-
+    resistant.
+    You no longer hallucinate.
+      "You are shocked back to your senses!"
+  uncursed
+    "Yecch!  This stuff tastes like poison."
+    If you are a Healer, no effect.
+      "Fortunately, you have been immunized."
+    If you are poison-resistant, one randomly-chosen statistic drops by
+    one unless you have sustain ability, and your constitution is abused.
+      "(But in fact it was biologically contaminated <fruit> juice.)"
+    Otherwise, one randomly-chosen statistic drops by 3 to 6 unless you
+    have sustain ability, you lose 1 to 10 hit points, and you abuse your
+    constitution.
+    You no longer hallucinate.
+      "You are shocked back to your senses!"      
+  cursed
+    "Yecch!  This stuff tastes like poison."
+    If you are a Healer, no effect.
+      "Fortunately, you have been immunized."
+    If you are poison-resistant, one randomly-chosen statistic drops by
+    one unless you have sustain ability, and your constitution is abused.
+      "(But in fact it was biologically contaminated <fruit> juice.)"
+    Otherwise, one randomly-chosen statistic drops by 3 to 6 unless you
+    have sustain ability, you lose 6 to 15 hit points, and you abuse your
+    constitution.
+    You no longer hallucinate.
+      "You are shocked back to your senses!"      
+  quaffed by Pestilence
+    Its maximum hit points are increased by 4 and its hit points become
+    this new maximum.
+    It is unblinded.
+      "Pestilence looks completely healed."  (if seen)
+  hits monster
+    If Pestilence, restored to maximum hit points.
+      "Pestilence looks sound and hale again." (if seen)
+    If monster is poison-resistant, no effect.
+      "<monster> looks unharmed." (if seen)
+    Otherwise, the monster's current and maximum hit points are halved.
+    Some monsters may resist.
+      "<monster> looks rather ill."  (if seen)
+  vapors
+    If you are a Healer, no effect.
+    You lose 5 hit points (but not below 1) and abuse your constitution.
+      No message.
+}
+sleeping {
+  blessed
+   If you have sleep resistance or free action, no effect.
+     "You yawn."
+   Otherwise, you fall asleep for 13 to 22 turns.
+     "You suddenly fall asleep!"
+  uncursed
+   If you have sleep resistance or free action, no effect.
+     "You yawn."
+   Otherwise, you fall asleep for 25 to 34 turns.
+     "You suddenly fall asleep!"
+  cursed
+   If you have sleep resistance or free action, no effect.
+     "You yawn."
+   Otherwise, you fall asleep for 37 to 46 turns.
+     "You suddenly fall asleep!"
+  hits monster
+    The monster falls asleep for 1 to 12 turns. Some monsters may resist.
+      "<monster> falls asleep." (if not resisted)
+  vapors
+    May be thrown by monsters.
+    If you have free action or sleep resistance, no effect.
+      "You yawn."
+    Otherwise, you are paralysed for 1 to 5 turns and your dexterity is
+    abused.
+      "You feel rather tired."
+}
+speed {
+  blessed
+    You become very fast (like speed boots) for 160 to 169 (more) turns
+    and exercise your dexterity.
+      "You are suddenly moving much faster."  (was slow)
+      "You are suddenly moving faster."  (was fast)
+      "Your <legs> get new energy."  (was already very fast)
+    You heal your legs if wounded.
+  uncursed
+    You become very fast (like speed boots) for 100 to 109 (more) turns
+    and exercise your dexterity.
+      "You are suddenly moving much faster."  (was slow)
+      "You are suddenly moving faster."  (was fast)
+      "Your <legs> get new energy."  (was already very fast)
+    You heal your legs if wounded.
+  cursed
+    You become very fast (like speed boots) for 40 to 49 (more) turns
+    and exercise your dexterity.
+      "You are suddenly moving much faster."  (was slow)
+      "You are suddenly moving faster."  (was fast)
+      "Your <legs> get new energy."  (was already very fast)
+  quaffed by or hits monster
+    If the monster was slow, it gets normal speed.
+    If the monster was normal speed, it becomes fast.
+      "<monster> is suddenly moving faster."  (seen quaffing)
+  vapors
+    You become very fast for 1 to 5 (more) turns, and exercise your
+    dexterity.
+      "Your knees seem more flexible now."  (not already fast)
+}
+water {
+  Note: Water is usually used to dip things into, instead of quaffed.
+  blessed
+    If you are undead, a demon, or chaotic, you abuse your constitution
+    and lose 2 to 12 hit points.
+      "This burns like acid!"
+    Otherwise, all sicknesses are cured and you exercise your
+    constitution and wisdom.
+      "You feel full of awe!"
+    Lycanthropy is cured.
+      "Your affinity to <werecreatures> disappears!"  (chaotic)
+      "You feel purified."  (non-chaotic)
+  uncursed
+    You get 1 to 10 nutrition.
+      "This tastes like water."
+  cursed
+    If you are undead, a demon, or chaotic, you heal 2 to 12 hitpoints
+    (but your maximum remains the same) and exercise your constitution.
+      "You feel quite proud of yourself."
+    Else if you are lawful, you lose 2 to 12 hit points and abuse your
+    constitution.
+      "This burns like acid!"
+    Otherwise, you abuse your constitution.
+      "You feel full of dread."
+  hits monster
+    Gremlins will multiply, with the new gremlin having half as many
+    maximum hit points.
+    Undead, demons and werecreatures will get 2 to 12 damage from holy
+    water, and are healed by 2 to 12 hit points by unholy water;
+    werecreatures will be forced into human form by holy water, or
+    beast form by unholy water.
+      "<monster> shrieks in pain!" (holy water)
+      "<monster> writhes in pain!" (holy water, silent monster)
+      "<monster> looks healthier." (unholy water)
+    Iron golems will take 1 to 6 damage.
+       "<monster> rusts." (if seen)
+  vapors
+    If you are a gremlin, you multiply with the new gremlin having half as
+    many maximum hit points as you.
+      "You multiply."
+    If the potion is holy water and you are a lycanthrope in your wereform,
+    you will revert to your @ form.
+    If the potion is unholy water and you are a lycanthrope in your @ form,
+    you will change to your wereform.
+}
+
+meat ring                      : $  5   1     0  :
+adornment                      :  100   3     1  :  Y
+hunger                         :  100   3     1c :
+protection                     :  100   3     1  :  Y
+protection from shape changers :  100   3     1  :
+stealth                        :  100   3     1  :
+sustain ability                :  100   3     1  :
+warning                        :  100   3     1  :
+aggravate monster              :  150   3     1c :
+cold resistance                :  150   3     1  :
+gain constitution              :  150   3     1  :  Y
+gain strength                  :  150   3     1  :  Y
+increase accuracy              :  150   3     1  :  Y
+increase damage                :  150   3     1  :  Y
+invisibility                   :  150   3     1  :
+poison resistance              :  150   3     1  :
+see invisible                  :  150   3     1  :
+shock resistance               :  150   3     1  :
+fire resistance                :  200   3     1  :
+free action                    :  200   3     1  :
+levitation                     :  200   3     1  :
+regeneration                   :  200   3     1  :
+searching                      :  200   3     1  :
+slow digestion                 :  200   3     1  :
+teleportation                  :  200   3     1c :
+conflict                       :  300   3     1  :
+polymorph                      :  300   3     1c :
+polymorph control              :  300   3     1  :
+teleport control               :  300   3     1  :
+
+meat ring {
+  "Several flies buzz around the sink."
+  Works when blind.
+}
+
+adornment {
+  "The faucets flash brightly for a moment."
+}
+hunger {
+  If you are unblind and there are any items on
+  the sink (except ball or chain) and they fail a
+  resistance roll, they disappear:
+  "Suddenly, <item> vanishes from the sink!"
+}
+protection {
+  "The sink glows silver/black for a moment."
+  depending on non-negative/negative enchantment.
+}
+prot from shape changers {
+  "The sink looks nothing like a fountain."
+}
+stealth {
+  "The sink seems to blend into the floor for a moment."
+}
+sustain ability {
+  "The water flow seems fixed."
+  Works when blind.
+}
+warning {
+  "The sink glows white for a moment."
+}
+
+aggravate monster {
+  "Several flies buzz angrily around the sink."
+  Works when blind.
+}
+cold resistance {
+  "The cold water faucet flashes brightly for a moment."
+}
+gain constitution {
+  "The water flow seems greater/lesser now."
+  depending on non-negative/negative enchantment.
+  Works when blind.
+}
+gain strength {
+  "The water flow seems stronger/weaker now."
+  depending on non-negative/negative enchantment.
+  Works when blind.
+}
+increase accuracy {
+  "The water flow hits/misses the drain."
+  depending on non-negative/negative enchantment.
+  Works when blind.
+}
+increase damage {
+  "The water's force seems greater/smaller now."
+  depending on non-negative/negative enchantment.
+  Works when blind.
+}
+invisibility {
+  "You don't see anything happen to the sink."
+}
+poison resistance {
+  "You smell rotten <fruit>."
+  Works when blind.
+}
+see invisible {
+  "You see some air in the sink."
+}
+shock resistance {
+  "Static electricity surrounds the sink."
+  Works when blind.
+}
+fire resistance {
+  "The hot water faucet flashes brightly for a moment."
+}
+free action {
+  "You see the ring slide right down the drain!"
+}
+levitation {
+  "The sink quivers upward for a moment."
+  Works when blind.
+}
+regeneration {
+  "The sink looks as good as new."
+}
+searching {
+  "You thought your ring got lost in the sink, but there it is!"
+  You never lose the ring.
+  Works when blind.
+}
+slow digestion {
+  "The ring is regurgitated!"
+  You never lose the ring.
+  Works when blind.
+}
+teleportation {
+  "The sink momentarily vanishes."
+}
+conflict {
+  "You hear loud noises coming from the drain."
+  Works when blind.
+}
+polymorph {
+  "The sink momentarily looks like a fountain."
+}
+polymorph control {
+  "The sink momentarily looks like a regularly erupting geyser."
+}
+teleport control {
+  "The sink looks like it is being beamed aboard somewhere."
+}
