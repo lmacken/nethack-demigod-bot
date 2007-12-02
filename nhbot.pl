@@ -6,17 +6,14 @@
 
 use IO::Select;
 use IO::Socket;
-use strict;
 
 # Bot Variables
-my $version = "v1.0";
-my $server = "irc.freenode.com";
+my $version = "v1.1";
+my $server = "ircd.lagged.org";
 my $port = "6667";
-my $nick = "L";
-my $user = "bot bot bot bot";
-my $room = "#test";
-my $entermsg = "NetHack Demigod Bot $version";
-my $what = "Slap mah fro!\n";
+my $nick = "Rodney";
+my $user = "demigod demigod demigod demigod";
+my $room = "#bingesoft";
 
 my $sock = IO::Socket::INET->new(PeerAddr => "$server",
 				 PeerPort => "$port",
@@ -85,6 +82,7 @@ while (1) {
             } elsif ($buffer =~ m/\@topten/) {
                 topten();
         	} elsif ($buffer =~ m/!$nick/) {
+                fortune();
         		$sock->send("PRIVMSG $room :$what\n");
         	}
         } elsif ($fd == \*LOG) {
@@ -116,8 +114,7 @@ sub login {
 
 sub joinrm {
 	$sock->send("JOIN $room\n\r");
-	$sock->send("PRIVMSG $room :$entermsg\n" );
-	$sock->send("PRIVMSG $room :Hail to the king, baby!\n" );
+	fortune();
 }
 
 sub topten {
@@ -126,7 +123,7 @@ sub topten {
     close(RECORD);
 
     $head = "   score name [class,race,sex,align] dlvl death";
-    $sock->send("NOTICE $name :$head\n");
+    $sock->send("PRIVMSG $room :$head\n");
 
     for($i=0; $i < 10; $i++) {
         @line = split(/ /, $log[$i]);
@@ -137,7 +134,7 @@ sub topten {
         $stats = $i+1 . "  $line[1] " . substr($last[0],0,7) . 
         " [ $line[11], $line[12], $line[13], $line[14] ] $line[3] $last[1]"; 
 
-        $sock->send("NOTICE $name :$stats\n");
+        $sock->send("PRIVMSG $room :$stats\n");
         sleep(1);
     }
 }
@@ -167,5 +164,5 @@ sub fortune {
         close(RUMORS);
     }
 
-    $sock->send("NOTICE $name :$rumors[rand(@rumors)]\n");
+    $sock->send("PRIVMSG $room :$rumors[rand(@rumors)]\n");
 }
