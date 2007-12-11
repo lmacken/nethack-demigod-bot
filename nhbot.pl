@@ -8,7 +8,7 @@ use IO::Select;
 use IO::Socket;
 
 # Bot Variables
-my $version = "v1.1";
+my $version = "v1.2";
 my $server = "ircd.lagged.org";
 my $port = "6667";
 my $nick = "Rodney";
@@ -27,17 +27,16 @@ $sel->add($sock);
 $sel->add(\*LOG);
 
 login();
+joinrm();
 
 print "****** CONNECTED ******\n";
 print "* Nethack Demigod Bot *\n";
 print "*                $version *\n";
 print "***********************\n";
 
-joinrm();
-
 while (1) {
 	my @ready;
-	@ready = $sel->can_read(1);
+	@ready = $sel->can_read();
 	foreach my $fd (@ready) {
 		if ($fd == $sock) {
 		$buffer = <$fd>;
