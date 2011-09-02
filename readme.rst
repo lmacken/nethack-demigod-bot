@@ -1,5 +1,12 @@
 **Nethack Demigod IRC Bot**
 
+FEATURES
+
+- Deaths mentioned in channel as they happen
+- Ability to search item database
+- Random fortunes
+- Top ten scoreboard
+
 RUNNING
 
 ::

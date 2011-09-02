@@ -9,9 +9,9 @@ use IO::Socket;
 
 # Bot Variables
 my $version = "v1.2";
-my $server = "ircd.lagged.org";
+my $server = "irc.prison.net";
 my $port = "6667";
-my $nick = "Rodney";
+my $nick = "r0dney";
 my $user = "demigod demigod demigod demigod";
 my $room = "#bingesoft";
 
@@ -41,7 +41,7 @@ while (1) {
 		if ($fd == $sock) {
 		$buffer = <$fd>;
 
-		#print $buffer; #output all server messages
+		print $buffer; #output all server messages
             
 		#get the name of the person searching
 		$buffer =~ /\:([^\!]*?)\!/;
